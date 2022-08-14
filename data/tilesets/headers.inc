@@ -840,7 +840,7 @@ gTileset_KantoGeneral::
 	.4byte gTilesetPalettes_KantoGeneral
 	.4byte gMetatiles_KantoGeneral
 	.4byte gMetatileAttributes_KantoGeneral
-	.4byte NULL
+	.4byte InitTilesetAnim_KantoGeneral
 
 	.align 2
 gTileset_PalletTown::
