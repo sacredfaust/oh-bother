@@ -24,6 +24,7 @@ static void (*sSecondaryTilesetAnimCallback)(u16);
 static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
+static void TilesetAnim_KantoGeneral(u16);
 static void TilesetAnim_Building(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
@@ -48,6 +49,7 @@ static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
 static void QueueAnimTiles_General_Waterfall(u16);
 static void QueueAnimTiles_General_LandWaterEdge(u16);
+static void QueueAnimTiles_KantoGeneral_Kantoflower(u16);
 static void QueueAnimTiles_Building_TVTurnedOn(u16);
 static void QueueAnimTiles_Rustboro_WindyWater(u16, u8);
 static void QueueAnimTiles_Rustboro_Fountain(u16);
@@ -84,6 +86,20 @@ const u16 *const gTilesetAnims_General_Flower[] = {
     gTilesetAnims_General_Flower_Frame1,
     gTilesetAnims_General_Flower_Frame0,
     gTilesetAnims_General_Flower_Frame2
+};
+
+const u16 gTilesetAnims_KantoGeneral_Kantoflower_Frame0[] = INCBIN_U16("data/tilesets/primary/kantogeneral/anim/kantoflower/0.4bpp");
+const u16 gTilesetAnims_KantoGeneral_Kantoflower_Frame1[] = INCBIN_U16("data/tilesets/primary/kantogeneral/anim/kantoflower/1.4bpp");
+const u16 gTilesetAnims_KantoGeneral_Kantoflower_Frame2[] = INCBIN_U16("data/tilesets/primary/kantogeneral/anim/kantoflower/2.4bpp");
+const u16 gTilesetAnims_KantoGeneral_Kantoflower_Frame3[] = INCBIN_U16("data/tilesets/primary/kantogeneral/anim/kantoflower/3.4bpp");
+const u16 gTilesetAnims_KantoGeneral_Kantoflower_Frame4[] = INCBIN_U16("data/tilesets/primary/kantogeneral/anim/kantoflower/4.4bpp");
+
+const u16 *const gTilesetAnims_KantoGeneral_Kantoflower[] = {
+    gTilesetAnims_KantoGeneral_Kantoflower_Frame0,
+    gTilesetAnims_KantoGeneral_Kantoflower_Frame1,
+    gTilesetAnims_KantoGeneral_Kantoflower_Frame2,
+    gTilesetAnims_KantoGeneral_Kantoflower_Frame3,
+    gTilesetAnims_KantoGeneral_Kantoflower_Frame4
 };
 
 const u16 gTilesetAnims_General_Water_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/water/0.4bpp");
@@ -622,6 +638,13 @@ void InitTilesetAnim_General(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_General;
 }
 
+void InitTilesetAnim_KantoGeneral(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_KantoGeneral;
+}
+
 void InitTilesetAnim_Building(void)
 {
     sPrimaryTilesetAnimCounter = 0;
@@ -643,6 +666,12 @@ static void TilesetAnim_General(u16 timer)
         QueueAnimTiles_General_LandWaterEdge(timer / 16);
 }
 
+static void TilesetAnim_KantoGeneral(u16 timer)
+{
+    if (timer % 16 == 5)
+        QueueAnimTiles_KantoGeneral_Kantoflower(timer / 16);
+}
+
 static void TilesetAnim_Building(u16 timer)
 {
     if (timer % 8 == 0)
@@ -653,6 +682,12 @@ static void QueueAnimTiles_General_Flower(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_Flower);
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Flower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_KantoGeneral_Kantoflower(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_KantoGeneral_Kantoflower);
+    AppendTilesetAnimToBuffer(gTilesetAnims_KantoGeneral_Kantoflower[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_General_Water(u16 timer)
