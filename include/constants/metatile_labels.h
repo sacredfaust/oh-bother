@@ -789,6 +789,18 @@
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
 
+// gTileset_KantoGeneral
+#define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
+#define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
+#define METATILE_Kanto_SlidingDoubleDoor             0x15B
+
+// gTileset_PalletTown
+#define METATILE_PalletTown_Door         0x2A3
+#define METATILE_PalletTown_OaksLabDoor  0x2CF
+
+// gTileset_ViridianCity
+#define METATILE_ViridianCity_Door  0x221
+
 // gTileset_VermilionCity
 #define METATILE_VermilionCity_Door  0x2AE
 
