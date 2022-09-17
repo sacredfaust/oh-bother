@@ -265,6 +265,11 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
 
+// gTileset_Kanto
+#define METATILE_Kanto_SlidingDoubleDoor             0x15B
+#define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
+#define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
+
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207
 #define METATILE_Lavaridge_CaveEntrance_Bottom  0x25E
@@ -388,6 +393,10 @@
 #define METATILE_Pacifidlog_SubmergedLogs_HorizontalRight      0x255
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x262
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x25A
+
+// gTileset_PalletTown
+#define METATILE_PalletTown_Door         0x2A3
+#define METATILE_PalletTown_OaksLabDoor  0x2CF
 
 // gTileset_PetalburgGym
 #define METATILE_PetalburgGym_RoomEntrance_Left   0x210
@@ -789,19 +798,10 @@
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
 
-// gTileset_KantoGeneral
-#define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
-#define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
-#define METATILE_Kanto_SlidingDoubleDoor             0x15B
-
-// gTileset_PalletTown
-#define METATILE_PalletTown_Door         0x2A3
-#define METATILE_PalletTown_OaksLabDoor  0x2CF
+// gTileset_VermilionCity
+#define METATILE_VermilionCity_Door  0x2AE
 
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
-
-// gTileset_VermilionCity
-#define METATILE_VermilionCity_Door  0x2AE
 
 #endif // GUARD_METATILE_LABELS_H
