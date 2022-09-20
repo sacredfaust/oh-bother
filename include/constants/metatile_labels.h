@@ -134,6 +134,9 @@
 #define METATILE_Cave_ShoalCave_DirtPile_Large           0x358
 #define METATILE_Cave_ShoalCave_DirtPile_Small           0x35A
 
+// gTileset_CeruleanCity
+#define METATILE_CeruleanCity_Door  0x262
+
 // gTileset_Contest
 #define METATILE_Contest_CounterFlap_Bottom  0x2D9
 #define METATILE_Contest_CounterFlap_Top     0x2D1
@@ -412,6 +415,10 @@
 #define METATILE_Petalburg_Door_BirchsLab   0x249
 #define METATILE_Petalburg_Door_Littleroot  0x248
 #define METATILE_Petalburg_Door_Oldale      0x287
+
+// gTileset_PewterCity
+#define METATILE_PewterCity_Door         0x24E
+#define METATILE_PewterCity_Museum_Door  0x247
 
 // gTileset_PokemonCenter
 #define METATILE_PokemonCenter_CounterBarrier            0x25D
@@ -804,9 +811,5 @@
 
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
-
-// gTileset_PewterCity
-#define METATILE_PewterCity_Door         0x24E
-#define METATILE_PewterCity_Museum_Door  0x247
 
 #endif // GUARD_METATILE_LABELS_H
