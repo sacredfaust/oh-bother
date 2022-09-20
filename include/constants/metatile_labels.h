@@ -266,7 +266,7 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
 
 // gTileset_Kanto
-#define METATILE_Kanto_General_Door                   0x03D
+#define METATILE_Kanto_General_Door                  0x03D
 #define METATILE_Kanto_SlidingDoubleDoor             0x15B
 #define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
 #define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
@@ -804,5 +804,9 @@
 
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
+
+// gTileset_PewterCity
+#define METATILE_PewterCity_Door         0x24E
+#define METATILE_PewterCity_Museum_Door  0x247
 
 #endif // GUARD_METATILE_LABELS_H
