@@ -131,6 +131,7 @@ static const u8 sDoorAnimTiles_TrainerHillLobbyElevator[] = INCBIN_U8("graphics/
 static const u16 sDoorNullPalette48[16] = {};
 static const u8 sDoorAnimTiles_TrainerHillRoofElevator[] = INCBIN_U8("graphics/door_anims/trainer_hill_roof_elevator.4bpp");
 static const u16 sDoorNullPalette49[16] = {};
+static const u8 sDoorAnimTiles_Kanto_General[] = INCBIN_U8("graphics/door_anims/kanto_general.4bpp");
 static const u8 sDoorAnimTiles_Kanto_PokeCenter[] = INCBIN_U8("graphics/door_anims/kanto_pokecenter.4bpp");
 static const u8 sDoorAnimTiles_Kanto_PokeMart[] = INCBIN_U8("graphics/door_anims/kanto_pokemart.4bpp");
 static const u8 sDoorAnimTiles_SlidingDouble[] = INCBIN_U8("graphics/door_anims/sliding_double.4bpp");
@@ -226,6 +227,7 @@ static const u8 sDoorAnimPalettes_BattleDomePreBattleRoom[] = {9, 9, 7, 7, 7, 7,
 static const u8 sDoorAnimPalettes_BattleTentInterior[] = {9, 9, 9, 9, 9, 9, 9, 9};
 static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_Kanto_General[] = {3, 3, 3, 3, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_Kanto_PokeCenter[] = {2, 2, 2, 2, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Kanto_PokeMart[] = {3, 3, 3, 3, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_SlidingDouble[] = {5, 5, 5, 5, 3, 3, 3, 3};
@@ -289,6 +291,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
+    {METATILE_Kanto_General_Door,                                DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Kanto_General, sDoorAnimPalettes_Kanto_General},
     {METATILE_Kanto_SlidingSingleDoor_PokeCenter,           DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Kanto_PokeCenter, sDoorAnimPalettes_Kanto_PokeCenter},
     {METATILE_Kanto_SlidingSingleDoor_PokeMart,             DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Kanto_PokeMart, sDoorAnimPalettes_Kanto_PokeMart},
     {METATILE_Kanto_SlidingDoubleDoor,                      DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_SlidingDouble, sDoorAnimPalettes_SlidingDouble},

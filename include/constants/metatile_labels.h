@@ -266,6 +266,7 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
 
 // gTileset_Kanto
+#define METATILE_Kanto_General_Door                   0x03D
 #define METATILE_Kanto_SlidingDoubleDoor             0x15B
 #define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
 #define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
