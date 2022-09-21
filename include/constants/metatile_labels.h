@@ -469,6 +469,10 @@
 // gTileset_Route25
 #define METATILE_Route25_Door  0x26C
 
+// gTileset_Route5
+#define METATILE_Route5_Door                  0x2D8
+#define METATILE_Route5_UndergroundPass_Door  0x2D9
+
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
 #define METATILE_Rustboro_Door_Tan   0x22F
