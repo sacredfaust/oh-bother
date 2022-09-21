@@ -137,6 +137,9 @@
 // gTileset_CeruleanCity
 #define METATILE_CeruleanCity_Door  0x262
 
+// gTileset_CinnabarIsland
+#define METATILE_CinnabarIsland_Door  0x22D
+
 // gTileset_Contest
 #define METATILE_Contest_CounterFlap_Bottom  0x2D9
 #define METATILE_Contest_CounterFlap_Top     0x2D1
@@ -208,6 +211,9 @@
 #define METATILE_Fortree_WoodBridge1_Bottom                0x29F
 #define METATILE_Fortree_WoodBridge1_Top                   0x297
 
+// gTileset_FuchsiaCity
+#define METATILE_FuchsiaCity_Door  0x2BD
+
 // gTileset_General
 #define METATILE_General_BlueCaveIndent        0x1B0
 #define METATILE_General_BlueCaveOpen          0x1B1
@@ -270,6 +276,7 @@
 
 // gTileset_Kanto
 #define METATILE_Kanto_General_Door                  0x03D
+#define METATILE_Kanto_SafariZone_Door               0x252
 #define METATILE_Kanto_SlidingDoubleDoor             0x15B
 #define METATILE_Kanto_SlidingSingleDoor_PokeCenter  0x062
 #define METATILE_Kanto_SlidingSingleDoor_PokeMart    0x074
@@ -818,9 +825,7 @@
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
 
-// gTileset_FuchsiaCity
-#define METATILE_FuchsiaCity_Door       0x2BD
-#define METATILE_ZooBuilding_Door       0x2BE
-#define METATILE_Kanto_SafariZone_Door  0x252
+// gTileset_ZooBuilding
+#define METATILE_ZooBuilding_Door  0x2BE
 
 #endif // GUARD_METATILE_LABELS_H
