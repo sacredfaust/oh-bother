@@ -818,4 +818,9 @@
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
 
+// gTileset_FuchsiaCity
+#define METATILE_FuchsiaCity_Door       0x2BD
+#define METATILE_ZooBuilding_Door       0x2BE
+#define METATILE_Kanto_SafariZone_Door  0x252
+
 #endif // GUARD_METATILE_LABELS_H
