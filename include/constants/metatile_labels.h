@@ -134,6 +134,14 @@
 #define METATILE_Cave_ShoalCave_DirtPile_Large           0x358
 #define METATILE_Cave_ShoalCave_DirtPile_Small           0x35A
 
+// gTileset_CeladonCity
+#define METATILE_CeladonCity_DepartmentStore_Door      0x214
+#define METATILE_CeladonCity_DepartmentStore_Elevator  0x2E6
+#define METATILE_CeladonCity_Door                      0x2D6
+#define METATILE_CeladonCity_GameCorner_Door           0x2F0
+#define METATILE_CeladonCity_PrizeRoom_Door            0x2F1
+#define METATILE_CeladonCity_RocketHideout_Elevator    0x37B
+
 // gTileset_CeruleanCity
 #define METATILE_CeruleanCity_Door  0x262
 
@@ -466,12 +474,21 @@
 #define METATILE_RS_MossdeepGym_Switch_Down     0x239
 #define METATILE_RS_MossdeepGym_Switch_Up       0x238
 
+// gTileset_Route22
+#define METATILE_Route22_Door  0x257
+
+// gTileset_IndigoPlateau
+#define METATILE_IndigoPlateau_Door  0x2B1
+
 // gTileset_Route25
 #define METATILE_Route25_Door  0x26C
 
 // gTileset_Route5
 #define METATILE_Route5_Door                  0x2D8
 #define METATILE_Route5_UndergroundPass_Door  0x2D9
+
+// gTileset_Route6
+#define METATILE_Route6_UndergroundPass_Door  0x2B0
 
 // gTileset_Route7
 #define METATILE_Route7_UndergroundPass_Door  0x2EC
@@ -482,6 +499,12 @@
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
 #define METATILE_Rustboro_Door_Tan   0x22F
+
+// gTileset_SaffronCity
+#define METATILE_SaffronCity_Door1             0x204
+#define METATILE_SaffronCity_Door2             0x2C8
+#define METATILE_SaffronCity_SilphCo           0x2C9
+#define METATILE_SaffronCity_SilphCo_Elevator  0x37A
 
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
@@ -830,15 +853,13 @@
 #define METATILE_Underwater_RockWall     0x21E
 
 // gTileset_VermilionCity
-#define METATILE_VermilionCity_Door  0x2AE
+#define METATILE_VermilionCity_Door                 0x2AE
+#define METATILE_VermilionCity_PokemonFanClub_Door  0x2AF
 
 // gTileset_ViridianCity
 #define METATILE_ViridianCity_Door  0x221
 
 // gTileset_ZooBuilding
 #define METATILE_ZooBuilding_Door  0x2BE
-
-// gTileset_Route6
-#define METATILE_Route6_UndergroundPass_Door  0x2B0
 
 #endif // GUARD_METATILE_LABELS_H
