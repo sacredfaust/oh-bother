@@ -473,6 +473,12 @@
 #define METATILE_Route5_Door                  0x2D8
 #define METATILE_Route5_UndergroundPass_Door  0x2D9
 
+// gTileset_Route7
+#define METATILE_Route7_UndergroundPass_Door  0x2EC
+
+// gTileset_Route8
+#define METATILE_Route8_UndergroundPass_Door  0x2CE
+
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
 #define METATILE_Rustboro_Door_Tan   0x22F
@@ -831,5 +837,8 @@
 
 // gTileset_ZooBuilding
 #define METATILE_ZooBuilding_Door  0x2BE
+
+// gTileset_Route6
+#define METATILE_Route6_UndergroundPass_Door  0x2B0
 
 #endif // GUARD_METATILE_LABELS_H

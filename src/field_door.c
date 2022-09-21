@@ -332,6 +332,9 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_CinnabarIsland_Door,                          DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cinnabar, sDoorAnimPalettes_Cinnabar},
     {METATILE_Route5_Door,                                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Route5, sDoorAnimPalettes_Route5},
     {METATILE_Route5_UndergroundPass_Door,                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Route5_UndergroundPass, sDoorAnimPalettes_Route5_UndergroundPass},
+    {METATILE_Route6_UndergroundPass_Door,                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Route5_UndergroundPass, sDoorAnimPalettes_Route5_UndergroundPass},
+    {METATILE_Route7_UndergroundPass_Door,                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Route5_UndergroundPass, sDoorAnimPalettes_Route5_UndergroundPass},
+    {METATILE_Route8_UndergroundPass_Door,                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Route5_UndergroundPass, sDoorAnimPalettes_Route5_UndergroundPass},
     {},
 };
 
