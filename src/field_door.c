@@ -163,6 +163,11 @@ static const u8 sDoorAnimTiles_Saffron2[] = INCBIN_U8("graphics/door_anims/saffr
 static const u8 sDoorAnimTiles_Saffron_SilphCo[] = INCBIN_U8("graphics/door_anims/saffroncity_silphco.4bpp");
 static const u8 sDoorAnimTiles_Saffron_SilphCo_Elevator[] = INCBIN_U8("graphics/door_anims/saffroncity_silphco_elevator.4bpp");
 static const u8 sDoorAnimTiles_IndigoPlateau[] = INCBIN_U8("graphics/door_anims/indigoplateau.4bpp");
+static const u8 sDoorAnimTiles_Sevii123[] = INCBIN_U8("graphics/door_anims/sevii123.4bpp");
+static const u8 sDoorAnimTiles_Sevii3[] = INCBIN_U8("graphics/door_anims/sevii3.4bpp");
+static const u8 sDoorAnimTiles_Sevii4[] = INCBIN_U8("graphics/door_anims/sevii4.4bpp");
+static const u8 sDoorAnimTiles_Sevii1_Sliding[] = INCBIN_U8("graphics/door_anims/sevii1_sliding.4bpp");
+static const u8 sDoorAnimTiles_Sevii2_Sliding[] = INCBIN_U8("graphics/door_anims/sevii2_sliding.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -283,6 +288,11 @@ static const u8 sDoorAnimPalettes_Saffron2[] = {12, 12, 12, 12, 8, 8, 8, 8};
 static const u8 sDoorAnimPalettes_Saffron_SilphCo[] = {9, 9, 9, 9, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Saffron_SilphCo_Elevator[] = {8, 8, 2, 2, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_IndigoPlateau[] = {10, 10, 10, 10, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Sevii123[] = {8, 8, 8, 8, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_Sevii3[] = {2, 2, 2, 2, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_Sevii4[] = {9, 9, 9, 9, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Sevii1_Sliding[] = {11, 11, 11, 11, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Sevii2_Sliding[] = {9, 9, 9, 9, 3, 3, 3, 3};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -374,6 +384,11 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_SaffronCity_SilphCo,                          DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Saffron_SilphCo, sDoorAnimPalettes_Saffron_SilphCo},
     {METATILE_SaffronCity_SilphCo_Elevator,                 DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Saffron_SilphCo_Elevator, sDoorAnimPalettes_Saffron_SilphCo_Elevator},
     {METATILE_IndigoPlateau_Door,                           DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_IndigoPlateau, sDoorAnimPalettes_IndigoPlateau},
+    {METATILE_Sevii123_Door,                                DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Sevii123, sDoorAnimPalettes_Sevii123},
+    {METATILE_Sevii3_Door,                                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Sevii3, sDoorAnimPalettes_Sevii3},
+    {METATILE_Sevii4_Door,                                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Sevii4, sDoorAnimPalettes_Sevii4},
+    {METATILE_Sevii1_Sliding_Door,                          DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii1_Sliding, sDoorAnimPalettes_Sevii1_Sliding},
+    {METATILE_Sevii2_Sliding_Door,                          DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii2_Sliding, sDoorAnimPalettes_Sevii2_Sliding},
     {},
 };
 

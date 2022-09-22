@@ -862,4 +862,13 @@
 // gTileset_ZooBuilding
 #define METATILE_ZooBuilding_Door  0x2BE
 
+// gTileset_Sevii123
+#define METATILE_Sevii123_Door        0x217
+#define METATILE_Sevii3_Door          0x34A
+#define METATILE_Sevii1_Sliding_Door  0x34B
+#define METATILE_Sevii2_Sliding_Door  0x34C
+
+// gTileset_Sevii45
+#define METATILE_Sevii4_Door  0x2C4
+
 #endif // GUARD_METATILE_LABELS_H
