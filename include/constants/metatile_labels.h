@@ -873,4 +873,8 @@
 #define METATILE_Sevii5_Door                  0x2C5
 #define METATILE_Sevii5_RocketWarehouse_Door  0x28B
 
+// gTileset_Sevii67
+#define METATILE_Sevii7_TrainerTower_Elevator1  0x2FD
+#define METATILE_Sevii7_TrainerTower_Elevator2  0x2FE
+
 #endif // GUARD_METATILE_LABELS_H

@@ -170,6 +170,8 @@ static const u8 sDoorAnimTiles_Sevii5[] = INCBIN_U8("graphics/door_anims/sevii5.
 static const u8 sDoorAnimTiles_Sevii1_Sliding[] = INCBIN_U8("graphics/door_anims/sevii1_sliding.4bpp");
 static const u8 sDoorAnimTiles_Sevii2_Sliding[] = INCBIN_U8("graphics/door_anims/sevii2_sliding.4bpp");
 static const u8 sDoorAnimTiles_Sevii5_RocketWarehouse[] = INCBIN_U8("graphics/door_anims/sevii5_rocketwarehouse.4bpp");
+static const u8 sDoorAnimTiles_Sevii7_TrainerTower_Elevator1[] = INCBIN_U8("graphics/door_anims/sevii7_trainertower_elevator1.4bpp");
+static const u8 sDoorAnimTiles_Sevii7_TrainerTower_Elevator2[] = INCBIN_U8("graphics/door_anims/sevii7_trainertower_elevator2.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -297,6 +299,8 @@ static const u8 sDoorAnimPalettes_Sevii5[] = {9, 9, 9, 9, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_Sevii1_Sliding[] = {11, 11, 11, 11, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Sevii2_Sliding[] = {9, 9, 9, 9, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Sevii5_RocketWarehouse[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Sevii7_TrainerTower_Elevator1[] = {8, 8, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_Sevii7_TrainerTower_Elevator2[] = {11, 11, 2, 2, 2, 2, 2, 2};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -395,6 +399,8 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_Sevii1_Sliding_Door,                          DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii1_Sliding, sDoorAnimPalettes_Sevii1_Sliding},
     {METATILE_Sevii2_Sliding_Door,                          DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii2_Sliding, sDoorAnimPalettes_Sevii2_Sliding},
     {METATILE_Sevii5_RocketWarehouse_Door,                  DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii5_RocketWarehouse, sDoorAnimPalettes_Sevii5_RocketWarehouse},
+    {METATILE_Sevii7_TrainerTower_Elevator1,                DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii7_TrainerTower_Elevator1, sDoorAnimPalettes_Sevii7_TrainerTower_Elevator1},
+    {METATILE_Sevii7_TrainerTower_Elevator2,                DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii7_TrainerTower_Elevator2, sDoorAnimPalettes_Sevii7_TrainerTower_Elevator2},
     {},
 };
 
