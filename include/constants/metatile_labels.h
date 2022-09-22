@@ -869,6 +869,8 @@
 #define METATILE_Sevii2_Sliding_Door  0x34C
 
 // gTileset_Sevii45
-#define METATILE_Sevii4_Door  0x2C4
+#define METATILE_Sevii4_Door                  0x2C4
+#define METATILE_Sevii5_Door                  0x2C5
+#define METATILE_Sevii5_RocketWarehouse_Door  0x28B
 
 #endif // GUARD_METATILE_LABELS_H
