@@ -814,13 +814,13 @@ static void QueueAnimTiles_KantoGeneral_Kantoflower(u16 timer)
 static void QueueAnimTiles_KantoGeneral_Kantowater(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_KantoGeneral_Kantowater);
-    AppendTilesetAnimToBuffer(gTilesetAnims_KantoGeneral_Kantowater[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 30 * TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(gTilesetAnims_KantoGeneral_Kantowater[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 48 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_KantoGeneral_Kantosandy(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_KantoGeneral_Kantosandy);
-    AppendTilesetAnimToBuffer(gTilesetAnims_KantoGeneral_Kantosandy[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 10 * TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(gTilesetAnims_KantoGeneral_Kantosandy[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 18 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_JohtoGeneral_Johtoflower(u16 timer)
@@ -832,13 +832,13 @@ static void QueueAnimTiles_JohtoGeneral_Johtoflower(u16 timer)
 static void QueueAnimTiles_JohtoGeneral_Johtowater(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_JohtoGeneral_Johtowater);
-    AppendTilesetAnimToBuffer(gTilesetAnims_JohtoGeneral_Johtowater[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 30 * TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(gTilesetAnims_JohtoGeneral_Johtowater[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 48 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_JohtoGeneral_Johtosandy(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_JohtoGeneral_Johtosandy);
-    AppendTilesetAnimToBuffer(gTilesetAnims_JohtoGeneral_Johtosandy[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 10 * TILE_SIZE_4BPP);
+    AppendTilesetAnimToBuffer(gTilesetAnims_JohtoGeneral_Johtosandy[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 18 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles_General_Water(u16 timer)
