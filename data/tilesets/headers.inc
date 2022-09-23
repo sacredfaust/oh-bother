@@ -1489,7 +1489,7 @@ gTileset_JohtoGeneral::
 	.4byte gTilesetPalettes_JohtoGeneral
 	.4byte gMetatiles_JohtoGeneral
 	.4byte gMetatileAttributes_JohtoGeneral
-	.4byte NULL
+	.4byte InitTilesetAnim_JohtoGeneral
 
 	.align 2
 gTileset_JohtoBuilding::
