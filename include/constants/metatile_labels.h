@@ -267,6 +267,9 @@
 #define METATILE_GenericBuilding_TrickHouse_Door_Closed  0x21B
 #define METATILE_GenericBuilding_TrickHouse_Stairs_Down  0x219
 
+// gTileset_IndigoPlateau
+#define METATILE_IndigoPlateau_Door  0x2B1
+
 // gTileset_InsideOfTruck
 #define METATILE_InsideOfTruck_DoorClosedFloor_Bottom  0x21D
 #define METATILE_InsideOfTruck_DoorClosedFloor_Mid     0x215
@@ -281,6 +284,20 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x297
 #define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
+
+// gTileset_KantoPokeCenter
+#define METATILE_KantoPokeCenter_Escalator1F_Tile0_Frame0  0x250
+#define METATILE_KantoPokeCenter_Escalator1F_Tile0_Frame1  0x288
+#define METATILE_KantoPokeCenter_Escalator1F_Tile0_Frame2  0x28A
+#define METATILE_KantoPokeCenter_Escalator1F_Tile1_Frame0  0x251
+#define METATILE_KantoPokeCenter_Escalator1F_Tile1_Frame1  0x289
+#define METATILE_KantoPokeCenter_Escalator1F_Tile1_Frame2  0x28B
+#define METATILE_KantoPokeCenter_Escalator1F_Tile2_Frame0  0x258
+#define METATILE_KantoPokeCenter_Escalator1F_Tile2_Frame1  0x290
+#define METATILE_KantoPokeCenter_Escalator1F_Tile2_Frame2  0x292
+#define METATILE_KantoPokeCenter_Escalator1F_Tile3_Frame0  0x259
+#define METATILE_KantoPokeCenter_Escalator1F_Tile3_Frame1  0x291
+#define METATILE_KantoPokeCenter_Escalator1F_Tile3_Frame2  0x293
 
 // gTileset_Kanto
 #define METATILE_Kanto_General_Door                  0x03D
@@ -476,9 +493,6 @@
 
 // gTileset_Route22
 #define METATILE_Route22_Door  0x257
-
-// gTileset_IndigoPlateau
-#define METATILE_IndigoPlateau_Door  0x2B1
 
 // gTileset_Route25
 #define METATILE_Route25_Door  0x26C
@@ -780,6 +794,29 @@
 #define METATILE_SecretBase_YellowBrick_Bottom          0x22E
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
+// gTileset_Sevii123
+#define METATILE_Sevii123_Door  0x217
+
+// gTileset_Sevii1
+#define METATILE_Sevii1_Sliding_Door  0x34B
+
+// gTileset_Sevii2
+#define METATILE_Sevii2_Sliding_Door  0x34C
+
+// gTileset_Sevii3
+#define METATILE_Sevii3_Door  0x34A
+
+// gTileset_Sevii4
+#define METATILE_Sevii4_Door  0x2C4
+
+// gTileset_Sevii5
+#define METATILE_Sevii5_Door                  0x2C5
+#define METATILE_Sevii5_RocketWarehouse_Door  0x28B
+
+// gTileset_Sevii7
+#define METATILE_Sevii7_TrainerTower_Elevator1  0x2FD
+#define METATILE_Sevii7_TrainerTower_Elevator2  0x2FE
+
 // gTileset_Shop
 #define METATILE_Shop_Door_Elevator   0x285
 #define METATILE_Shop_Laptop1_Flash   0x258
@@ -861,20 +898,5 @@
 
 // gTileset_ZooBuilding
 #define METATILE_ZooBuilding_Door  0x2BE
-
-// gTileset_Sevii123
-#define METATILE_Sevii123_Door        0x217
-#define METATILE_Sevii3_Door          0x34A
-#define METATILE_Sevii1_Sliding_Door  0x34B
-#define METATILE_Sevii2_Sliding_Door  0x34C
-
-// gTileset_Sevii45
-#define METATILE_Sevii4_Door                  0x2C4
-#define METATILE_Sevii5_Door                  0x2C5
-#define METATILE_Sevii5_RocketWarehouse_Door  0x28B
-
-// gTileset_Sevii67
-#define METATILE_Sevii7_TrainerTower_Elevator1  0x2FD
-#define METATILE_Sevii7_TrainerTower_Elevator2  0x2FE
 
 #endif // GUARD_METATILE_LABELS_H
