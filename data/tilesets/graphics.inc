@@ -2989,3 +2989,63 @@ gTilesetPalettes_JohtoBuilding1::
 	.align 2
 gTilesetTiles_JohtoBuilding1::
 	.incbin "data/tilesets/secondary/johtobuilding1/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_VioletCity::
+	.incbin "data/tilesets/secondary/violetcity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/violetcity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_VioletCity::
+	.incbin "data/tilesets/secondary/violetcity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_VioletCityGym::
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/violetcitygym/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_VioletCityGym::
+	.incbin "data/tilesets/secondary/violetcitygym/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_PagodaTower::
+	.incbin "data/tilesets/secondary/pagodatower/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/pagodatower/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_PagodaTower::
+	.incbin "data/tilesets/secondary/pagodatower/tiles.4bpp.lz"

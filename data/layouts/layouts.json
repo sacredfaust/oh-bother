@@ -8360,6 +8360,126 @@
       "secondary_tileset": "gTileset_NewBarkTown",
       "border_filepath": "data/layouts/Route31/border.bin",
       "blockdata_filepath": "data/layouts/Route31/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY",
+      "name": "VioletCity_Layout",
+      "width": 48,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_VioletCity",
+      "border_filepath": "data/layouts/VioletCity/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_HOUSE1",
+      "name": "VioletCity_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/VioletCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_MART",
+      "name": "VioletCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeMart",
+      "border_filepath": "data/layouts/VioletCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_GYM",
+      "name": "VioletCity_Gym_Layout",
+      "width": 13,
+      "height": 17,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_VioletCityGym",
+      "border_filepath": "data/layouts/VioletCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_EARLS_ACADEMY",
+      "name": "VioletCity_EarlsAcademy_Layout",
+      "width": 10,
+      "height": 21,
+      "primary_tileset": "gTileset_KantoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding3",
+      "border_filepath": "data/layouts/VioletCity_EarlsAcademy/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_EarlsAcademy/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_POKEMON_CENTER_1F",
+      "name": "VioletCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/VioletCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_POKEMON_CENTER_2F",
+      "name": "VioletCity_PokemonCenter_2F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/VioletCity_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIOLET_CITY_HOUSE2",
+      "name": "VioletCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/VioletCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/VioletCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_1F",
+      "name": "SproutTower_1F_Layout",
+      "width": 19,
+      "height": 19,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_PagodaTower",
+      "border_filepath": "data/layouts/SproutTower_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_2F",
+      "name": "SproutTower_2F_Layout",
+      "width": 19,
+      "height": 18,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_PagodaTower",
+      "border_filepath": "data/layouts/SproutTower_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPROUT_TOWER_3F",
+      "name": "SproutTower_3F_Layout",
+      "width": 19,
+      "height": 18,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_PagodaTower",
+      "border_filepath": "data/layouts/SproutTower_3F/border.bin",
+      "blockdata_filepath": "data/layouts/SproutTower_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE31_GATEHOUSE",
+      "name": "Route31_Gatehouse_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/Route31_Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route31_Gatehouse/map.bin"
     }
   ]
 }

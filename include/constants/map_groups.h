@@ -1010,6 +1010,17 @@
 #define MAP_CHERRYGROVE_CITY_HOUSE3            (6 | (54 << 8))
 
 // gMapGroup_VioletCity
+#define MAP_VIOLET_CITY                   (0 | (55 << 8))
+#define MAP_VIOLET_CITY_HOUSE1            (1 | (55 << 8))
+#define MAP_VIOLET_CITY_MART              (2 | (55 << 8))
+#define MAP_VIOLET_CITY_GYM               (3 | (55 << 8))
+#define MAP_VIOLET_CITY_EARLS_ACADEMY     (4 | (55 << 8))
+#define MAP_VIOLET_CITY_POKEMON_CENTER_1F (5 | (55 << 8))
+#define MAP_VIOLET_CITY_POKEMON_CENTER_2F (6 | (55 << 8))
+#define MAP_VIOLET_CITY_HOUSE2            (7 | (55 << 8))
+#define MAP_SPROUT_TOWER_1F               (8 | (55 << 8))
+#define MAP_SPROUT_TOWER_2F               (9 | (55 << 8))
+#define MAP_SPROUT_TOWER_3F               (10 | (55 << 8))
 
 // gMapGroup_AzaleaTown
 
@@ -1034,6 +1045,9 @@
 #define MAP_ROUTE30_HOUSE1            (0 | (64 << 8))
 #define MAP_ROUTE30_MR_POKEMONS_HOUSE (1 | (64 << 8))
 
-#define MAP_GROUPS_COUNT 65
+// gMapGroup_IndoorRoute31
+#define MAP_ROUTE31_GATEHOUSE (0 | (65 << 8))
+
+#define MAP_GROUPS_COUNT 66
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

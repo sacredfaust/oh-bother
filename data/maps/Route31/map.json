@@ -17,13 +17,31 @@
       "direction": "down",
       "offset": 22,
       "map": "MAP_ROUTE30"
+    },
+    {
+      "direction": "left",
+      "offset": -20,
+      "map": "MAP_VIOLET_CITY"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 39,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE31",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE31_GATEHOUSE",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

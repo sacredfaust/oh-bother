@@ -1002,3 +1002,24 @@ gMetatiles_JohtoBuilding1::
 	.align 1
 gMetatileAttributes_JohtoBuilding1::
 	.incbin "data/tilesets/secondary/johtobuilding1/metatile_attributes.bin"
+	.align 1
+gMetatiles_VioletCity::
+	.incbin "data/tilesets/secondary/violetcity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_VioletCity::
+	.incbin "data/tilesets/secondary/violetcity/metatile_attributes.bin"
+	.align 1
+gMetatiles_VioletCityGym::
+	.incbin "data/tilesets/secondary/violetcitygym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_VioletCityGym::
+	.incbin "data/tilesets/secondary/violetcitygym/metatile_attributes.bin"
+	.align 1
+gMetatiles_PagodaTower::
+	.incbin "data/tilesets/secondary/pagodatower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_PagodaTower::
+	.incbin "data/tilesets/secondary/pagodatower/metatile_attributes.bin"

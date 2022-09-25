@@ -1523,3 +1523,36 @@ gTileset_JohtoBuilding1::
 	.4byte gMetatiles_JohtoBuilding1
 	.4byte gMetatileAttributes_JohtoBuilding1
 	.4byte NULL
+
+	.align 2
+gTileset_VioletCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_VioletCity
+	.4byte gTilesetPalettes_VioletCity
+	.4byte gMetatiles_VioletCity
+	.4byte gMetatileAttributes_VioletCity
+	.4byte NULL
+
+	.align 2
+gTileset_VioletCityGym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_VioletCityGym
+	.4byte gTilesetPalettes_VioletCityGym
+	.4byte gMetatiles_VioletCityGym
+	.4byte gMetatileAttributes_VioletCityGym
+	.4byte NULL
+
+	.align 2
+gTileset_PagodaTower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_PagodaTower
+	.4byte gTilesetPalettes_PagodaTower
+	.4byte gMetatiles_PagodaTower
+	.4byte gMetatileAttributes_PagodaTower
+	.4byte NULL

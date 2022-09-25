@@ -1463,3 +1463,27 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Route30_MrPokemonsHouse/scripts.inc"
 
 	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/VioletCity/scripts.inc"
+
+	.include "data/maps/VioletCity_House1/scripts.inc"
+
+	.include "data/maps/VioletCity_Mart/scripts.inc"
+
+	.include "data/maps/VioletCity_Gym/scripts.inc"
+
+	.include "data/maps/VioletCity_EarlsAcademy/scripts.inc"
+
+	.include "data/maps/VioletCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/VioletCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/VioletCity_House2/scripts.inc"
+
+	.include "data/maps/SproutTower_1F/scripts.inc"
+
+	.include "data/maps/SproutTower_2F/scripts.inc"
+
+	.include "data/maps/SproutTower_3F/scripts.inc"
+
+	.include "data/maps/Route31_Gatehouse/scripts.inc"

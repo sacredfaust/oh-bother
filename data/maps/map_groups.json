@@ -65,7 +65,8 @@
     "gMapGroup_MahoganyTown",
     "gMapGroup_BlackthornCity",
     "gMapGroup_JohtoRoutes",
-    "gMapGroup_IndoorRoute30"
+    "gMapGroup_IndoorRoute30",
+    "gMapGroup_IndoorRoute31"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1072,7 +1073,17 @@
     "CherrygroveCity_House3"
   ],
   "gMapGroup_VioletCity": [
-
+    "VioletCity",
+    "VioletCity_House1",
+    "VioletCity_Mart",
+    "VioletCity_Gym",
+    "VioletCity_EarlsAcademy",
+    "VioletCity_PokemonCenter_1F",
+    "VioletCity_PokemonCenter_2F",
+    "VioletCity_House2",
+    "SproutTower_1F",
+    "SproutTower_2F",
+    "SproutTower_3F"
   ],
   "gMapGroup_AzaleaTown": [
 
@@ -1103,5 +1114,8 @@
   "gMapGroup_IndoorRoute30": [
     "Route30_House1",
     "Route30_MrPokemonsHouse"
+  ],
+  "gMapGroup_IndoorRoute31": [
+    "Route31_Gatehouse"
   ]
 }
