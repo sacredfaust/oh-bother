@@ -3049,3 +3049,183 @@ gTilesetPalettes_PagodaTower::
 	.align 2
 gTilesetTiles_PagodaTower::
 	.incbin "data/tilesets/secondary/pagodatower/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoCave::
+	.incbin "data/tilesets/secondary/johtocave/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtocave/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoCave::
+	.incbin "data/tilesets/secondary/johtocave/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_AzaleaTown::
+	.incbin "data/tilesets/secondary/azaleatown/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/azaleatown/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_AzaleaTown::
+	.incbin "data/tilesets/secondary/azaleatown/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoBikeShop::
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtobikeshop/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoBikeShop::
+	.incbin "data/tilesets/secondary/johtobikeshop/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_AzaleaGym::
+	.incbin "data/tilesets/secondary/azaleagym/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/azaleagym/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_AzaleaGym::
+	.incbin "data/tilesets/secondary/azaleagym/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_GoldenrodCity::
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodcity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_GoldenrodCity::
+	.incbin "data/tilesets/secondary/goldenrodcity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoForest::
+	.incbin "data/tilesets/secondary/johtoforest/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtoforest/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoForest::
+	.incbin "data/tilesets/secondary/johtoforest/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoDayCare::
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtodaycare/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoDayCare::
+	.incbin "data/tilesets/secondary/johtodaycare/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoUnderground::
+	.incbin "data/tilesets/secondary/johtounderground/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtounderground/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoUnderground::
+	.incbin "data/tilesets/secondary/johtounderground/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_GoldenrodGym::
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/goldenrodgym/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_GoldenrodGym::
+	.incbin "data/tilesets/secondary/goldenrodgym/tiles.4bpp.lz"

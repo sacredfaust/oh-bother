@@ -65,8 +65,11 @@
     "gMapGroup_MahoganyTown",
     "gMapGroup_BlackthornCity",
     "gMapGroup_JohtoRoutes",
+    "gMapGroup_JohtoDungeons",
     "gMapGroup_IndoorRoute30",
-    "gMapGroup_IndoorRoute31"
+    "gMapGroup_IndoorRoute31",
+    "gMapGroup_IndoorRoute32",
+    "gMapGroup_IndoorRoute34"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1086,10 +1089,32 @@
     "SproutTower_3F"
   ],
   "gMapGroup_AzaleaTown": [
-
+    "AzaleaTown",
+    "AzaleaTown_Mart",
+    "AzaleaTown_PokemonCenter_1F",
+    "AzaleaTown_PokemonCenter_2F",
+    "AzaleaTown_KurtsHouse",
+    "AzaleaTown_Gym",
+    "AzaleaTown_CharcoalKiln",
+    "SlowpokeWell_B1F",
+    "SlowpokeWell_B2F",
+    "Azalea_Gatehouse"
   ],
   "gMapGroup_GoldenrodCity": [
-
+    "GoldenrodCity",
+    "GoldenrodCity_Underground_NorthEntrance",
+    "GoldenrodCity_Underground_SouthEntrance",
+    "GoldenrodCity_Underground",
+    "GoldenrodCity_Underground_B1F",
+    "GoldenCity_Underground_Warehouse",
+    "GoldenrodCity_Gym",
+    "GoldenrodCity_FlowerShop",
+    "GoldenrodCity_NameRatersHouse",
+    "GoldenrodCity_House1",
+    "GoldenrodCity_House2",
+    "GoldenrodCity_GameCorner",
+    "GoldenrodCity_BillsFamilysHouse",
+    "GoldenrodCity_PokemonCenter_1F"
   ],
   "gMapGroup_EcruteakCity": [
 
@@ -1109,7 +1134,16 @@
   "gMapGroup_JohtoRoutes": [
     "Route29",
     "Route30",
-    "Route31"
+    "Route31",
+    "Route32",
+    "Route33",
+    "Route34"
+  ],
+  "gMapGroup_JohtoDungeons": [
+    "UnionCave_1F",
+    "UnionCave_B1F",
+    "UnionCave_B2F",
+    "IlexForest"
   ],
   "gMapGroup_IndoorRoute30": [
     "Route30_House1",
@@ -1117,5 +1151,14 @@
   ],
   "gMapGroup_IndoorRoute31": [
     "Route31_Gatehouse"
+  ],
+  "gMapGroup_IndoorRoute32": [
+    "Route32_Gatehouse",
+    "Route32_PokemonCenter_1F",
+    "Route32_PokemonCenter_2F"
+  ],
+  "gMapGroup_IndoorRoute34": [
+    "Route34_Gatehouse",
+    "Route34_PokemonDayCare"
   ]
 }

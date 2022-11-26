@@ -1487,3 +1487,75 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/SproutTower_3F/scripts.inc"
 
 	.include "data/maps/Route31_Gatehouse/scripts.inc"
+
+	.include "data/maps/Route32/scripts.inc"
+
+	.include "data/maps/Route32_Gatehouse/scripts.inc"
+
+	.include "data/maps/Route32_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route32_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/Route33/scripts.inc"
+
+	.include "data/maps/UnionCave_1F/scripts.inc"
+
+	.include "data/maps/UnionCave_B1F/scripts.inc"
+
+	.include "data/maps/UnionCave_B2F/scripts.inc"
+
+	.include "data/maps/AzaleaTown/scripts.inc"
+
+	.include "data/maps/AzaleaTown_Mart/scripts.inc"
+
+	.include "data/maps/AzaleaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/AzaleaTown_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/AzaleaTown_KurtsHouse/scripts.inc"
+
+	.include "data/maps/AzaleaTown_Gym/scripts.inc"
+
+	.include "data/maps/AzaleaTown_CharcoalKiln/scripts.inc"
+
+	.include "data/maps/SlowpokeWell_B1F/scripts.inc"
+
+	.include "data/maps/SlowpokeWell_B2F/scripts.inc"
+
+	.include "data/maps/Route34/scripts.inc"
+
+	.include "data/maps/IlexForest/scripts.inc"
+
+	.include "data/maps/Route34_Gatehouse/scripts.inc"
+
+	.include "data/maps/Azalea_Gatehouse/scripts.inc"
+
+	.include "data/maps/Route34_PokemonDayCare/scripts.inc"
+
+	.include "data/maps/GoldenrodCity/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Underground_NorthEntrance/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Underground_SouthEntrance/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Underground/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Underground_B1F/scripts.inc"
+
+	.include "data/maps/GoldenCity_Underground_Warehouse/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_Gym/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_FlowerShop/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_NameRatersHouse/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_House1/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_House2/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_GameCorner/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_BillsFamilysHouse/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_PokemonCenter_1F/scripts.inc"

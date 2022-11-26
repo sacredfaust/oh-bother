@@ -1556,3 +1556,102 @@ gTileset_PagodaTower::
 	.4byte gMetatiles_PagodaTower
 	.4byte gMetatileAttributes_PagodaTower
 	.4byte NULL
+
+	.align 2
+gTileset_JohtoCave::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoCave
+	.4byte gTilesetPalettes_JohtoCave
+	.4byte gMetatiles_JohtoCave
+	.4byte gMetatileAttributes_JohtoCave
+	.4byte NULL
+
+	.align 2
+gTileset_AzaleaTown::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AzaleaTown
+	.4byte gTilesetPalettes_AzaleaTown
+	.4byte gMetatiles_AzaleaTown
+	.4byte gMetatileAttributes_AzaleaTown
+	.4byte NULL
+
+	.align 2
+gTileset_JohtoBikeShop::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoBikeShop
+	.4byte gTilesetPalettes_JohtoBikeShop
+	.4byte gMetatiles_JohtoBikeShop
+	.4byte gMetatileAttributes_JohtoBikeShop
+	.4byte NULL
+
+	.align 2
+gTileset_AzaleaGym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AzaleaGym
+	.4byte gTilesetPalettes_AzaleaGym
+	.4byte gMetatiles_AzaleaGym
+	.4byte gMetatileAttributes_AzaleaGym
+	.4byte NULL
+
+	.align 2
+gTileset_GoldenrodCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_GoldenrodCity
+	.4byte gTilesetPalettes_GoldenrodCity
+	.4byte gMetatiles_GoldenrodCity
+	.4byte gMetatileAttributes_GoldenrodCity
+	.4byte NULL
+
+	.align 2
+gTileset_JohtoForest::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoForest
+	.4byte gTilesetPalettes_JohtoForest
+	.4byte gMetatiles_JohtoForest
+	.4byte gMetatileAttributes_JohtoForest
+	.4byte NULL
+
+	.align 2
+gTileset_JohtoDayCare::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoDayCare
+	.4byte gTilesetPalettes_JohtoDayCare
+	.4byte gMetatiles_JohtoDayCare
+	.4byte gMetatileAttributes_JohtoDayCare
+	.4byte NULL
+
+	.align 2
+gTileset_JohtoUnderground::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoUnderground
+	.4byte gTilesetPalettes_JohtoUnderground
+	.4byte gMetatiles_JohtoUnderground
+	.4byte gMetatileAttributes_JohtoUnderground
+	.4byte NULL
+
+	.align 2
+gTileset_GoldenrodGym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_GoldenrodGym
+	.4byte gTilesetPalettes_GoldenrodGym
+	.4byte gMetatiles_GoldenrodGym
+	.4byte gMetatileAttributes_GoldenrodGym
+	.4byte NULL

@@ -8480,6 +8480,366 @@
       "secondary_tileset": "gTileset_KantoBuilding2",
       "border_filepath": "data/layouts/Route31_Gatehouse/border.bin",
       "blockdata_filepath": "data/layouts/Route31_Gatehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE32",
+      "name": "Route32_Layout",
+      "width": 30,
+      "height": 120,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_VioletCity",
+      "border_filepath": "data/layouts/Route32/border.bin",
+      "blockdata_filepath": "data/layouts/Route32/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE32_GATEHOUSE",
+      "name": "Route32_Gatehouse_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/Route32_Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route32_Gatehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE32_POKEMON_CENTER_1F",
+      "name": "Route32_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/Route32_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Route32_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE32_POKEMON_CENTER_2F",
+      "name": "Route32_PokemonCenter_2F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/Route32_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Route32_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE33",
+      "name": "Route33_Layout",
+      "width": 26,
+      "height": 26,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_VioletCity",
+      "border_filepath": "data/layouts/Route33/border.bin",
+      "blockdata_filepath": "data/layouts/Route33/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CAVE_1F",
+      "name": "UnionCave_1F_Layout",
+      "width": 24,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_JohtoCave",
+      "border_filepath": "data/layouts/UnionCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CAVE_B1F",
+      "name": "UnionCave_B1F_Layout",
+      "width": 24,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_JohtoCave",
+      "border_filepath": "data/layouts/UnionCave_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CAVE_B2F",
+      "name": "UnionCave_B2F_Layout",
+      "width": 24,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_JohtoCave",
+      "border_filepath": "data/layouts/UnionCave_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCave_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN",
+      "name": "AzaleaTown_Layout",
+      "width": 52,
+      "height": 24,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_AzaleaTown",
+      "border_filepath": "data/layouts/AzaleaTown/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_MART",
+      "name": "AzaleaTown_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeMart",
+      "border_filepath": "data/layouts/AzaleaTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_POKEMON_CENTER_1F",
+      "name": "AzaleaTown_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/AzaleaTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_POKEMON_CENTER_2F",
+      "name": "AzaleaTown_PokemonCenter_2F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/AzaleaTown_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_KURTS_HOUSE",
+      "name": "AzaleaTown_KurtsHouse_Layout",
+      "width": 17,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_JohtoBikeShop",
+      "border_filepath": "data/layouts/AzaleaTown_KurtsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_KurtsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_GYM",
+      "name": "AzaleaTown_Gym_Layout",
+      "width": 13,
+      "height": 19,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_AzaleaGym",
+      "border_filepath": "data/layouts/AzaleaTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_TOWN_CHARCOAL_KILN",
+      "name": "AzaleaTown_CharcoalKiln_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/AzaleaTown_CharcoalKiln/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaTown_CharcoalKiln/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLOWPOKE_WELL_B1F",
+      "name": "SlowpokeWell_B1F_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_RockTunnel",
+      "border_filepath": "data/layouts/SlowpokeWell_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/SlowpokeWell_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLOWPOKE_WELL_B2F",
+      "name": "SlowpokeWell_B2F_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_RockTunnel",
+      "border_filepath": "data/layouts/SlowpokeWell_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/SlowpokeWell_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE34",
+      "name": "Route34_Layout",
+      "width": 32,
+      "height": 70,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_GoldenrodCity",
+      "border_filepath": "data/layouts/Route34/border.bin",
+      "blockdata_filepath": "data/layouts/Route34/map.bin"
+    },
+    {
+      "id": "LAYOUT_ILEX_FOREST",
+      "name": "IlexForest_Layout",
+      "width": 66,
+      "height": 68,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_JohtoForest",
+      "border_filepath": "data/layouts/IlexForest/border.bin",
+      "blockdata_filepath": "data/layouts/IlexForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE34_GATEHOUSE",
+      "name": "Route34_Gatehouse_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/Route34_Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route34_Gatehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_GATEHOUSE",
+      "name": "Azalea_Gatehouse_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/Azalea_Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/Azalea_Gatehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE34_POKEMON_DAY_CARE",
+      "name": "Route34_PokemonDayCare_Layout",
+      "width": 14,
+      "height": 11,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_JohtoDayCare",
+      "border_filepath": "data/layouts/Route34_PokemonDayCare/border.bin",
+      "blockdata_filepath": "data/layouts/Route34_PokemonDayCare/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY",
+      "name": "GoldenrodCity_Layout",
+      "width": 48,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_GoldenrodCity",
+      "border_filepath": "data/layouts/GoldenrodCity/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_NORTH_ENTRANCE",
+      "name": "GoldenrodCity_Underground_NorthEntrance_Layout",
+      "width": 13,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_Underground_NorthEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Underground_NorthEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_SOUTH_ENTRANCE",
+      "name": "GoldenrodCity_Underground_SouthEntrance_Layout",
+      "width": 13,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_Underground_SouthEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Underground_SouthEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND",
+      "name": "GoldenrodCity_Underground_Layout",
+      "width": 28,
+      "height": 44,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_JohtoUnderground",
+      "border_filepath": "data/layouts/GoldenrodCity_Underground/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Underground/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_B1F",
+      "name": "GoldenrodCity_Underground_B1F_Layout",
+      "width": 26,
+      "height": 16,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_SilphCo",
+      "border_filepath": "data/layouts/GoldenrodCity_Underground_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Underground_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDEN_CITY_UNDERGROUND_WAREHOUSE",
+      "name": "GoldenCity_Underground_Warehouse_Layout",
+      "width": 24,
+      "height": 16,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_SilphCo",
+      "border_filepath": "data/layouts/GoldenCity_Underground_Warehouse/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenCity_Underground_Warehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_GYM",
+      "name": "GoldenrodCity_Gym_Layout",
+      "width": 21,
+      "height": 21,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_GoldenrodGym",
+      "border_filepath": "data/layouts/GoldenrodCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_FLOWER_SHOP",
+      "name": "GoldenrodCity_FlowerShop_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_JohtoDayCare",
+      "border_filepath": "data/layouts/GoldenrodCity_FlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_FlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_NAME_RATERS_HOUSE",
+      "name": "GoldenrodCity_NameRatersHouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_NameRatersHouse/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_NameRatersHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_HOUSE1",
+      "name": "GoldenrodCity_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_HOUSE2",
+      "name": "GoldenrodCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_GAME_CORNER",
+      "name": "GoldenrodCity_GameCorner_Layout",
+      "width": 20,
+      "height": 15,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_GameCorner",
+      "border_filepath": "data/layouts/GoldenrodCity_GameCorner/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_GameCorner/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_BILLS_FAMILYS_HOUSE",
+      "name": "GoldenrodCity_BillsFamilysHouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_BillsFamilysHouse/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_BillsFamilysHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_POKEMON_CENTER_1F",
+      "name": "GoldenrodCity_PokemonCenter_1F_Layout",
+      "width": 35,
+      "height": 18,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoPokeCenter",
+      "border_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/map.bin"
     }
   ]
 }

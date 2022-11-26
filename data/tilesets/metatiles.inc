@@ -1023,3 +1023,66 @@ gMetatiles_PagodaTower::
 	.align 1
 gMetatileAttributes_PagodaTower::
 	.incbin "data/tilesets/secondary/pagodatower/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoCave::
+	.incbin "data/tilesets/secondary/johtocave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoCave::
+	.incbin "data/tilesets/secondary/johtocave/metatile_attributes.bin"
+	.align 1
+gMetatiles_AzaleaTown::
+	.incbin "data/tilesets/secondary/azaleatown/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_AzaleaTown::
+	.incbin "data/tilesets/secondary/azaleatown/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoBikeShop::
+	.incbin "data/tilesets/secondary/johtobikeshop/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoBikeShop::
+	.incbin "data/tilesets/secondary/johtobikeshop/metatile_attributes.bin"
+	.align 1
+gMetatiles_AzaleaGym::
+	.incbin "data/tilesets/secondary/azaleagym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_AzaleaGym::
+	.incbin "data/tilesets/secondary/azaleagym/metatile_attributes.bin"
+	.align 1
+gMetatiles_GoldenrodCity::
+	.incbin "data/tilesets/secondary/goldenrodcity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_GoldenrodCity::
+	.incbin "data/tilesets/secondary/goldenrodcity/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoForest::
+	.incbin "data/tilesets/secondary/johtoforest/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoForest::
+	.incbin "data/tilesets/secondary/johtoforest/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoDayCare::
+	.incbin "data/tilesets/secondary/johtodaycare/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoDayCare::
+	.incbin "data/tilesets/secondary/johtodaycare/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoUnderground::
+	.incbin "data/tilesets/secondary/johtounderground/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoUnderground::
+	.incbin "data/tilesets/secondary/johtounderground/metatile_attributes.bin"
+	.align 1
+gMetatiles_GoldenrodGym::
+	.incbin "data/tilesets/secondary/goldenrodgym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_GoldenrodGym::
+	.incbin "data/tilesets/secondary/goldenrodgym/metatile_attributes.bin"
