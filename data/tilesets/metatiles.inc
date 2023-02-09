@@ -1086,3 +1086,4 @@ gMetatiles_GoldenrodGym::
 	.align 1
 gMetatileAttributes_GoldenrodGym::
 	.incbin "data/tilesets/secondary/goldenrodgym/metatile_attributes.bin"
+	
