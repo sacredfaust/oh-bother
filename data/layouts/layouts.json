@@ -8840,6 +8840,166 @@
       "secondary_tileset": "gTileset_KantoPokeCenter",
       "border_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/GoldenrodCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE35",
+      "name": "Route35_Layout",
+      "width": 24,
+      "height": 40,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_GoldenrodCity",
+      "border_filepath": "data/layouts/Route35/border.bin",
+      "blockdata_filepath": "data/layouts/Route35/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_CITY_GATEHOUSE_NORTH",
+      "name": "GoldenrodCity_GatehouseNorth_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/GoldenrodCity_GatehouseNorth/border.bin",
+      "blockdata_filepath": "data/layouts/GoldenrodCity_GatehouseNorth/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE36",
+      "name": "Route36_Layout",
+      "width": 64,
+      "height": 26,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_VioletCity",
+      "border_filepath": "data/layouts/Route36/border.bin",
+      "blockdata_filepath": "data/layouts/Route36/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_OUTSIDE",
+      "name": "RuinsOfAlph_Outside_Layout",
+      "width": 32,
+      "height": 48,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_VioletCity",
+      "border_filepath": "data/layouts/RuinsOfAlph_Outside/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_Outside/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE36_GATEHOUSE",
+      "name": "Route36_Gatehouse_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/Route36_Gatehouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route36_Gatehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_NATIONAL_PARK",
+      "name": "NationalPark_Layout",
+      "width": 48,
+      "height": 56,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_NationalPark",
+      "border_filepath": "data/layouts/NationalPark/border.bin",
+      "blockdata_filepath": "data/layouts/NationalPark/map.bin"
+    },
+    {
+      "id": "LAYOUT_NATIONAL_PARK_GATEHOUSE_SOUTH",
+      "name": "NationalPark_GatehouseSouth_Layout",
+      "width": 9,
+      "height": 11,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/NationalPark_GatehouseSouth/border.bin",
+      "blockdata_filepath": "data/layouts/NationalPark_GatehouseSouth/map.bin"
+    },
+    {
+      "id": "LAYOUT_NATIONAL_PARK_GATEHOUSE_EAST",
+      "name": "NationalPark_GatehouseEast_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/NationalPark_GatehouseEast/border.bin",
+      "blockdata_filepath": "data/layouts/NationalPark_GatehouseEast/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_RESEARCH_CENTER",
+      "name": "RuinsOfAlph_ResearchCenter_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoOaksLab",
+      "border_filepath": "data/layouts/RuinsOfAlph_ResearchCenter/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_ResearchCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_INNER_CHAMBER",
+      "name": "RuinsOfAlph_InnerChamber_Layout",
+      "width": 23,
+      "height": 33,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_InnerChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_InnerChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_KABUTO_CHAMBER",
+      "name": "RuinsOfAlph_KabutoChamber_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_KabutoChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_KabutoChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_KABUTO_ITEM_ROOM",
+      "name": "RuinsOfAlph_KabutoItemRoom_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_KabutoItemRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_KabutoItemRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_KABUTO_WORD_ROOM",
+      "name": "RuinsOfAlph_KabutoWordRoom_Layout",
+      "width": 21,
+      "height": 14,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_KabutoWordRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_KabutoWordRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_HO_OH_CHAMBER",
+      "name": "RuinsOfAlph_HoOhChamber_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_HoOhChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_HoOhChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_HO_OK_ITEM_ROOM",
+      "name": "RuinsOfAlph_HoOkItemRoom_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_HoOkItemRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_HoOkItemRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_HO_OH_WORD_ROOM",
+      "name": "RuinsOfAlph_HoOhWordRoom_Layout",
+      "width": 22,
+      "height": 19,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_HoOhWordRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_HoOhWordRoom/map.bin"
     }
   ]
 }

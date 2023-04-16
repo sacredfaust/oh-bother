@@ -17,6 +17,11 @@
       "direction": "down",
       "offset": 7,
       "map": "MAP_ROUTE34"
+    },
+    {
+      "direction": "up",
+      "offset": 11,
+      "map": "MAP_ROUTE35"
     }
   ],
   "object_events": [
@@ -27,15 +32,15 @@
       "x": 23,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_CITY_GATEHOUSE_NORTH",
+      "dest_warp_id": 1
     },
     {
       "x": 24,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_CITY_GATEHOUSE_NORTH",
+      "dest_warp_id": 1
     },
     {
       "x": 34,

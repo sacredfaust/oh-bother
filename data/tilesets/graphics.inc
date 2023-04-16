@@ -3229,3 +3229,43 @@ gTilesetPalettes_GoldenrodGym::
 	.align 2
 gTilesetTiles_GoldenrodGym::
 	.incbin "data/tilesets/secondary/goldenrodgym/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_NationalPark::
+	.incbin "data/tilesets/secondary/nationalpark/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/nationalpark/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_NationalPark::
+	.incbin "data/tilesets/secondary/nationalpark/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_RuinsOfAlph::
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/ruinsofalph/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_RuinsOfAlph::
+	.incbin "data/tilesets/secondary/ruinsofalph/tiles.4bpp.lz"

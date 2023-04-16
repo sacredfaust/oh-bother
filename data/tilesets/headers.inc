@@ -1655,3 +1655,25 @@ gTileset_GoldenrodGym::
 	.4byte gMetatiles_GoldenrodGym
 	.4byte gMetatileAttributes_GoldenrodGym
 	.4byte NULL
+
+	.align 2
+gTileset_NationalPark::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_NationalPark
+	.4byte gTilesetPalettes_NationalPark
+	.4byte gMetatiles_NationalPark
+	.4byte gMetatileAttributes_NationalPark
+	.4byte NULL
+
+	.align 2
+gTileset_RuinsOfAlph::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_RuinsOfAlph
+	.4byte gTilesetPalettes_RuinsOfAlph
+	.4byte gMetatiles_RuinsOfAlph
+	.4byte gMetatileAttributes_RuinsOfAlph
+	.4byte NULL

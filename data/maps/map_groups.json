@@ -69,7 +69,10 @@
     "gMapGroup_IndoorRoute30",
     "gMapGroup_IndoorRoute31",
     "gMapGroup_IndoorRoute32",
-    "gMapGroup_IndoorRoute34"
+    "gMapGroup_IndoorRoute34",
+    "gMapGroup_IndoorRoute36",
+    "gMapGroup_RuinsOfAlph",
+    "gMapGroup_NationalPark"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1114,7 +1117,8 @@
     "GoldenrodCity_House2",
     "GoldenrodCity_GameCorner",
     "GoldenrodCity_BillsFamilysHouse",
-    "GoldenrodCity_PokemonCenter_1F"
+    "GoldenrodCity_PokemonCenter_1F",
+    "GoldenrodCity_GatehouseNorth"
   ],
   "gMapGroup_EcruteakCity": [
 
@@ -1137,7 +1141,9 @@
     "Route31",
     "Route32",
     "Route33",
-    "Route34"
+    "Route34",
+    "Route35",
+    "Route36"
   ],
   "gMapGroup_JohtoDungeons": [
     "UnionCave_1F",
@@ -1160,5 +1166,24 @@
   "gMapGroup_IndoorRoute34": [
     "Route34_Gatehouse",
     "Route34_PokemonDayCare"
+  ],
+  "gMapGroup_IndoorRoute36": [
+    "Route36_Gatehouse"
+  ],
+  "gMapGroup_RuinsOfAlph": [
+    "RuinsOfAlph_Outside",
+    "RuinsOfAlph_ResearchCenter",
+    "RuinsOfAlph_InnerChamber",
+    "RuinsOfAlph_KabutoChamber",
+    "RuinsOfAlph_KabutoItemRoom",
+    "RuinsOfAlph_KabutoWordRoom",
+    "RuinsOfAlph_HoOhChamber",
+    "RuinsOfAlph_HoOkItemRoom",
+    "RuinsOfAlph_HoOhWordRoom"
+  ],
+  "gMapGroup_NationalPark": [
+    "NationalPark",
+    "NationalPark_GatehouseSouth",
+    "NationalPark_GatehouseEast"
   ]
 }

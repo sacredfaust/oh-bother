@@ -1559,3 +1559,35 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/GoldenrodCity_BillsFamilysHouse/scripts.inc"
 
 	.include "data/maps/GoldenrodCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route35/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_GatehouseNorth/scripts.inc"
+
+	.include "data/maps/Route36/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Outside/scripts.inc"
+
+	.include "data/maps/Route36_Gatehouse/scripts.inc"
+
+	.include "data/maps/NationalPark/scripts.inc"
+
+	.include "data/maps/NationalPark_GatehouseSouth/scripts.inc"
+
+	.include "data/maps/NationalPark_GatehouseEast/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_ResearchCenter/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_InnerChamber/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_KabutoChamber/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_KabutoItemRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_KabutoWordRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_HoOhChamber/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_HoOkItemRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_HoOhWordRoom/scripts.inc"

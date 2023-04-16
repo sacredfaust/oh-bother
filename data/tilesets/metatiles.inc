@@ -1086,3 +1086,17 @@ gMetatiles_GoldenrodGym::
 	.align 1
 gMetatileAttributes_GoldenrodGym::
 	.incbin "data/tilesets/secondary/goldenrodgym/metatile_attributes.bin"
+	.align 1
+gMetatiles_NationalPark::
+	.incbin "data/tilesets/secondary/nationalpark/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_NationalPark::
+	.incbin "data/tilesets/secondary/nationalpark/metatile_attributes.bin"
+	.align 1
+gMetatiles_RuinsOfAlph::
+	.incbin "data/tilesets/secondary/ruinsofalph/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_RuinsOfAlph::
+	.incbin "data/tilesets/secondary/ruinsofalph/metatile_attributes.bin"
