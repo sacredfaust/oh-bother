@@ -987,7 +987,7 @@ gMetatiles_JohtoBuilding::
 gMetatileAttributes_JohtoBuilding::
 	.incbin "data/tilesets/primary/johtobuilding/metatile_attributes.bin"
 	.align 1
-	
+
 gMetatiles_NewBarkTown::
 	.incbin "data/tilesets/secondary/newbarktown/metatiles.bin"
 
