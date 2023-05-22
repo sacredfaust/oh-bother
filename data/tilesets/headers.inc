@@ -1677,3 +1677,47 @@ gTileset_RuinsOfAlph::
 	.4byte gMetatiles_RuinsOfAlph
 	.4byte gMetatileAttributes_RuinsOfAlph
 	.4byte NULL
+
+	.align 2
+gTileset_EcruteakCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_EcruteakCity
+	.4byte gTilesetPalettes_EcruteakCity
+	.4byte gMetatiles_EcruteakCity
+	.4byte gMetatileAttributes_EcruteakCity
+	.4byte NULL
+
+	.align 2
+gTileset_OlivineCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_OlivineCity
+	.4byte gTilesetPalettes_OlivineCity
+	.4byte gMetatiles_OlivineCity
+	.4byte gMetatileAttributes_OlivineCity
+	.4byte NULL
+
+	.align 2
+gTileset_CianwoodCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_CianwoodCity
+	.4byte gTilesetPalettes_CianwoodCity
+	.4byte gMetatiles_CianwoodCity
+	.4byte gMetatileAttributes_CianwoodCity
+	.4byte NULL
+
+	.align 2
+gTileset_MahoganyTown::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MahoganyTown
+	.4byte gTilesetPalettes_MahoganyTown
+	.4byte gMetatiles_MahoganyTown
+	.4byte gMetatileAttributes_MahoganyTown
+	.4byte NULL

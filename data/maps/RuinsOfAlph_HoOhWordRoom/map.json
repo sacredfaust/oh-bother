@@ -40,21 +40,21 @@
     },
     {
       "x": 18,
-      "y": 17,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_RUINS_OF_ALPH_INNER_CHAMBER",
       "dest_warp_id": 4
     },
     {
       "x": 19,
-      "y": 17,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_RUINS_OF_ALPH_INNER_CHAMBER",
       "dest_warp_id": 5
     },
     {
       "x": 20,
-      "y": 17,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_RUINS_OF_ALPH_INNER_CHAMBER",
       "dest_warp_id": 6

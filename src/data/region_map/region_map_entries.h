@@ -498,12 +498,12 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_BURNED_TOWER]               = { 0,  0, 1, 1, sMapName_BurnedTower},
     [MAPSEC_SPROUT_TOWER]               = { 0,  0, 1, 1, sMapName_SproutTower},
     [MAPSEC_WHIRL_ISLANDS]              = { 0,  0, 1, 1, sMapName_WhirlIslands},
-    // [MAPSEC_DARK_CAVE]                  = { 0,  0, 1, 1, sMapName_DarkCave},
-    // [MAPSEC_MT_MORTAR]                  = { 0,  0, 1, 1, sMapName_MtMortar},
-    // [MAPSEC_LAKE_OF_RAGE]               = { 0,  0, 1, 1, sMapName_LakeOfRage},
-    // [MAPSEC_DRAGONS_DEN]                = { 0,  0, 1, 1, sMapName_DragonsDen},
-    // [MAPSEC_TOHJO_FALLS]                = { 0,  0, 1, 1, sMapName_TohjoFalls},
-    // [MAPSEC_MT_SILVER]                  = { 0,  0, 1, 1, sMapName_MtSilver},
+    [MAPSEC_DARK_CAVE]                  = { 0,  0, 1, 1, sMapName_DarkCave},
+    [MAPSEC_MT_MORTAR]                  = { 0,  0, 1, 1, sMapName_MtMortar},
+    [MAPSEC_LAKE_OF_RAGE]               = { 0,  0, 1, 1, sMapName_LakeOfRage},
+    [MAPSEC_DRAGONS_DEN]                = { 0,  0, 1, 1, sMapName_DragonsDen},
+    [MAPSEC_TOHJO_FALLS]                = { 0,  0, 1, 1, sMapName_TohjoFalls},
+    [MAPSEC_MT_SILVER]                  = { 0,  0, 1, 1, sMapName_MtSilver},
     [MAPSEC_DYNAMIC]                    = { 0,  0, 1, 1, sMapName_None}
 };
 

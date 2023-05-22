@@ -1052,12 +1052,17 @@
 #define MAP_GOLDENROD_CITY_GATEHOUSE_NORTH            (14 | (57 << 8))
 
 // gMapGroup_EcruteakCity
+#define MAP_ECRUTEAK_CITY                (0 | (58 << 8))
+#define MAP_ECRUTEAK_CITY_GATEHOUSE_WEST (1 | (58 << 8))
 
 // gMapGroup_OlivineCity
+#define MAP_OLIVINE_CITY (0 | (59 << 8))
 
 // gMapGroup_CianwoodCity
+#define MAP_CIANWOOD_CITY (0 | (60 << 8))
 
 // gMapGroup_MahoganyTown
+#define MAP_MAHOGANY_TOWN (0 | (61 << 8))
 
 // gMapGroup_BlackthornCity
 
@@ -1070,6 +1075,13 @@
 #define MAP_ROUTE34 (5 | (63 << 8))
 #define MAP_ROUTE35 (6 | (63 << 8))
 #define MAP_ROUTE36 (7 | (63 << 8))
+#define MAP_ROUTE37 (8 | (63 << 8))
+#define MAP_ROUTE38 (9 | (63 << 8))
+#define MAP_ROUTE39 (10 | (63 << 8))
+#define MAP_ROUTE40 (11 | (63 << 8))
+#define MAP_ROUTE41 (12 | (63 << 8))
+#define MAP_ROUTE42 (13 | (63 << 8))
+#define MAP_ROUTE43 (14 | (63 << 8))
 
 // gMapGroup_JohtoDungeons
 #define MAP_UNION_CAVE_1F  (0 | (64 << 8))
@@ -1097,21 +1109,30 @@
 #define MAP_ROUTE36_GATEHOUSE (0 | (69 << 8))
 
 // gMapGroup_RuinsOfAlph
-#define MAP_RUINS_OF_ALPH_OUTSIDE          (0 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_RESEARCH_CENTER  (1 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_INNER_CHAMBER    (2 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_KABUTO_CHAMBER   (3 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_KABUTO_ITEM_ROOM (4 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_KABUTO_WORD_ROOM (5 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_HO_OH_CHAMBER    (6 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_HO_OK_ITEM_ROOM  (7 | (70 << 8))
-#define MAP_RUINS_OF_ALPH_HO_OH_WORD_ROOM  (8 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_OUTSIDE              (0 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_RESEARCH_CENTER      (1 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_INNER_CHAMBER        (2 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_KABUTO_CHAMBER       (3 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_KABUTO_ITEM_ROOM     (4 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_KABUTO_WORD_ROOM     (5 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_HO_OH_CHAMBER        (6 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_HO_OK_ITEM_ROOM      (7 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_HO_OH_WORD_ROOM      (8 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_OMANYTE_CHAMBER      (9 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_OMANYTE_ITEM_ROOM    (10 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_OMANYTE_WORD_ROOM    (11 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_AERODACTYL_CHAMBER   (12 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM (13 | (70 << 8))
+#define MAP_RUINS_OF_ALPH_AERODACTYL_WORD_ROOM (14 | (70 << 8))
 
 // gMapGroup_NationalPark
 #define MAP_NATIONAL_PARK                 (0 | (71 << 8))
 #define MAP_NATIONAL_PARK_GATEHOUSE_SOUTH (1 | (71 << 8))
 #define MAP_NATIONAL_PARK_GATEHOUSE_EAST  (2 | (71 << 8))
 
-#define MAP_GROUPS_COUNT 72
+// gMapGroup_LakeOfRage
+#define MAP_LAKE_OF_RAGE (0 | (72 << 8))
+
+#define MAP_GROUPS_COUNT 73
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

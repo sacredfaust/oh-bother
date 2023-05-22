@@ -3269,3 +3269,83 @@ gTilesetPalettes_RuinsOfAlph::
 	.align 2
 gTilesetTiles_RuinsOfAlph::
 	.incbin "data/tilesets/secondary/ruinsofalph/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_EcruteakCity::
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/ecruteakcity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_EcruteakCity::
+	.incbin "data/tilesets/secondary/ecruteakcity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_OlivineCity::
+	.incbin "data/tilesets/secondary/olivinecity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/olivinecity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_OlivineCity::
+	.incbin "data/tilesets/secondary/olivinecity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_CianwoodCity::
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/cianwoodcity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_CianwoodCity::
+	.incbin "data/tilesets/secondary/cianwoodcity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MahoganyTown::
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/mahoganytown/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MahoganyTown::
+	.incbin "data/tilesets/secondary/mahoganytown/tiles.4bpp.lz"

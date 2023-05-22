@@ -1591,3 +1591,41 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/RuinsOfAlph_HoOkItemRoom/scripts.inc"
 
 	.include "data/maps/RuinsOfAlph_HoOhWordRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_OmanyteChamber/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_OmanyteItemRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_OmanyteWordRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_AerodactylChamber/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_AerodactylItemRoom/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_AerodactylWordRoom/scripts.inc"
+
+	.include "data/maps/Route37/scripts.inc"
+
+	.include "data/maps/EcruteakCity/scripts.inc"
+
+	.include "data/maps/Route38/scripts.inc"
+
+	.include "data/maps/Route39/scripts.inc"
+
+	.include "data/maps/EcruteakCity_GatehouseWest/scripts.inc"
+
+	.include "data/maps/OlivineCity/scripts.inc"
+
+	.include "data/maps/Route40/scripts.inc"
+
+	.include "data/maps/Route41/scripts.inc"
+
+	.include "data/maps/CianwoodCity/scripts.inc"
+
+	.include "data/maps/Route42/scripts.inc"
+
+	.include "data/maps/MahoganyTown/scripts.inc"
+
+	.include "data/maps/Route43/scripts.inc"
+
+	.include "data/maps/LakeOfRage/scripts.inc"

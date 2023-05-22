@@ -72,7 +72,8 @@
     "gMapGroup_IndoorRoute34",
     "gMapGroup_IndoorRoute36",
     "gMapGroup_RuinsOfAlph",
-    "gMapGroup_NationalPark"
+    "gMapGroup_NationalPark",
+    "gMapGroup_LakeOfRage"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -1121,16 +1122,17 @@
     "GoldenrodCity_GatehouseNorth"
   ],
   "gMapGroup_EcruteakCity": [
-
+    "EcruteakCity",
+    "EcruteakCity_GatehouseWest"
   ],
   "gMapGroup_OlivineCity": [
-
+    "OlivineCity"
   ],
   "gMapGroup_CianwoodCity": [
-
+    "CianwoodCity"
   ],
   "gMapGroup_MahoganyTown": [
-
+    "MahoganyTown"
   ],
   "gMapGroup_BlackthornCity": [
 
@@ -1143,7 +1145,14 @@
     "Route33",
     "Route34",
     "Route35",
-    "Route36"
+    "Route36",
+    "Route37",
+    "Route38",
+    "Route39",
+    "Route40",
+    "Route41",
+    "Route42",
+    "Route43"
   ],
   "gMapGroup_JohtoDungeons": [
     "UnionCave_1F",
@@ -1179,11 +1188,20 @@
     "RuinsOfAlph_KabutoWordRoom",
     "RuinsOfAlph_HoOhChamber",
     "RuinsOfAlph_HoOkItemRoom",
-    "RuinsOfAlph_HoOhWordRoom"
+    "RuinsOfAlph_HoOhWordRoom",
+    "RuinsOfAlph_OmanyteChamber",
+    "RuinsOfAlph_OmanyteItemRoom",
+    "RuinsOfAlph_OmanyteWordRoom",
+    "RuinsOfAlph_AerodactylChamber",
+    "RuinsOfAlph_AerodactylItemRoom",
+    "RuinsOfAlph_AerodactylWordRoom"
   ],
   "gMapGroup_NationalPark": [
     "NationalPark",
     "NationalPark_GatehouseSouth",
     "NationalPark_GatehouseEast"
+  ],
+  "gMapGroup_LakeOfRage": [
+    "LakeOfRage"
   ]
 }

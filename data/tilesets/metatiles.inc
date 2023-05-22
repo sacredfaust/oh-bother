@@ -1100,3 +1100,32 @@ gMetatiles_RuinsOfAlph::
 	.align 1
 gMetatileAttributes_RuinsOfAlph::
 	.incbin "data/tilesets/secondary/ruinsofalph/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_EcruteakCity::
+	.incbin "data/tilesets/secondary/ecruteakcity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_EcruteakCity::
+	.incbin "data/tilesets/secondary/ecruteakcity/metatile_attributes.bin"
+	.align 1
+gMetatiles_OlivineCity::
+	.incbin "data/tilesets/secondary/olivinecity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_OlivineCity::
+	.incbin "data/tilesets/secondary/olivinecity/metatile_attributes.bin"
+	.align 1
+gMetatiles_CianwoodCity::
+	.incbin "data/tilesets/secondary/cianwoodcity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_CianwoodCity::
+	.incbin "data/tilesets/secondary/cianwoodcity/metatile_attributes.bin"
+	.align 1
+gMetatiles_MahoganyTown::
+	.incbin "data/tilesets/secondary/mahoganytown/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MahoganyTown::
+	.incbin "data/tilesets/secondary/mahoganytown/metatile_attributes.bin"

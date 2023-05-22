@@ -8357,7 +8357,7 @@
       "width": 50,
       "height": 20,
       "primary_tileset": "gTileset_JohtoGeneral",
-      "secondary_tileset": "gTileset_NewBarkTown",
+      "secondary_tileset": "gTileset_VioletCity",
       "border_filepath": "data/layouts/Route31/border.bin",
       "blockdata_filepath": "data/layouts/Route31/map.bin"
     },
@@ -8995,11 +8995,201 @@
       "id": "LAYOUT_RUINS_OF_ALPH_HO_OH_WORD_ROOM",
       "name": "RuinsOfAlph_HoOhWordRoom_Layout",
       "width": 22,
-      "height": 19,
+      "height": 20,
       "primary_tileset": "gTileset_JohtoBuilding",
       "secondary_tileset": "gTileset_RuinsOfAlph",
       "border_filepath": "data/layouts/RuinsOfAlph_HoOhWordRoom/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_HoOhWordRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_OMANYTE_CHAMBER",
+      "name": "RuinsOfAlph_OmanyteChamber_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_OmanyteChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_OmanyteChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_OMANYTE_ITEM_ROOM",
+      "name": "RuinsOfAlph_OmanyteItemRoom_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_OmanyteItemRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_OmanyteItemRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_OMANYTE_WORD_ROOM",
+      "name": "RuinsOfAlph_OmanyteWordRoom_Layout",
+      "width": 21,
+      "height": 14,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_OmanyteWordRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_OmanyteWordRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_AERODACTYL_CHAMBER",
+      "name": "RuinsOfAlph_AerodactylChamber_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_AerodactylChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_AerodactylChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM",
+      "name": "RuinsOfAlph_AerodactylItemRoom_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_AerodactylItemRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_AerodactylItemRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUINS_OF_ALPH_AERODACTYL_WORD_ROOM",
+      "name": "RuinsOfAlph_AerodactylWordRoom_Layout",
+      "width": 21,
+      "height": 14,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_RuinsOfAlph",
+      "border_filepath": "data/layouts/RuinsOfAlph_AerodactylWordRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RuinsOfAlph_AerodactylWordRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE37",
+      "name": "Route37_Layout",
+      "width": 24,
+      "height": 22,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_EcruteakCity",
+      "border_filepath": "data/layouts/Route37/border.bin",
+      "blockdata_filepath": "data/layouts/Route37/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUTEAK_CITY",
+      "name": "EcruteakCity_Layout",
+      "width": 56,
+      "height": 48,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_EcruteakCity",
+      "border_filepath": "data/layouts/EcruteakCity/border.bin",
+      "blockdata_filepath": "data/layouts/EcruteakCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE38",
+      "name": "Route38_Layout",
+      "width": 52,
+      "height": 28,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_EcruteakCity",
+      "border_filepath": "data/layouts/Route38/border.bin",
+      "blockdata_filepath": "data/layouts/Route38/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE39",
+      "name": "Route39_Layout",
+      "width": 28,
+      "height": 48,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_EcruteakCity",
+      "border_filepath": "data/layouts/Route39/border.bin",
+      "blockdata_filepath": "data/layouts/Route39/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUTEAK_CITY_GATEHOUSE_WEST",
+      "name": "EcruteakCity_GatehouseWest_Layout",
+      "width": 13,
+      "height": 9,
+      "primary_tileset": "gTileset_JohtoBuilding",
+      "secondary_tileset": "gTileset_KantoBuilding2",
+      "border_filepath": "data/layouts/EcruteakCity_GatehouseWest/border.bin",
+      "blockdata_filepath": "data/layouts/EcruteakCity_GatehouseWest/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLIVINE_CITY",
+      "name": "OlivineCity_Layout",
+      "width": 56,
+      "height": 52,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_OlivineCity",
+      "border_filepath": "data/layouts/OlivineCity/border.bin",
+      "blockdata_filepath": "data/layouts/OlivineCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE40",
+      "name": "Route40_Layout",
+      "width": 24,
+      "height": 48,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_OlivineCity",
+      "border_filepath": "data/layouts/Route40/border.bin",
+      "blockdata_filepath": "data/layouts/Route40/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE41",
+      "name": "Route41_Layout",
+      "width": 66,
+      "height": 68,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_CianwoodCity",
+      "border_filepath": "data/layouts/Route41/border.bin",
+      "blockdata_filepath": "data/layouts/Route41/map.bin"
+    },
+    {
+      "id": "LAYOUT_CIANWOOD_CITY",
+      "name": "CianwoodCity_Layout",
+      "width": 46,
+      "height": 68,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_CianwoodCity",
+      "border_filepath": "data/layouts/CianwoodCity/border.bin",
+      "blockdata_filepath": "data/layouts/CianwoodCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE42",
+      "name": "Route42_Layout",
+      "width": 76,
+      "height": 22,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/Route42/border.bin",
+      "blockdata_filepath": "data/layouts/Route42/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_TOWN",
+      "name": "MahoganyTown_Layout",
+      "width": 26,
+      "height": 26,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/MahoganyTown/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE43",
+      "name": "Route43_Layout",
+      "width": 26,
+      "height": 72,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/Route43/border.bin",
+      "blockdata_filepath": "data/layouts/Route43/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_OF_RAGE",
+      "name": "LakeOfRage_Layout",
+      "width": 44,
+      "height": 44,
+      "primary_tileset": "gTileset_JohtoGeneral",
+      "secondary_tileset": "gTileset_MahoganyTown",
+      "border_filepath": "data/layouts/LakeOfRage/border.bin",
+      "blockdata_filepath": "data/layouts/LakeOfRage/map.bin"
     }
   ]
 }
