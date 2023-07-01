@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MOO_MOO_FARM_BARN",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MOO_MOO_FARM",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

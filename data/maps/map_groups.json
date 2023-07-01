@@ -66,13 +66,21 @@
     "gMapGroup_BlackthornCity",
     "gMapGroup_JohtoRoutes",
     "gMapGroup_JohtoDungeons",
+    "gMapGroup_IndoorRoute26",
+    "gMapGroup_IndoorRoute27",
+    "gMapGroup_IndoorRoute28",
+    "gMapGroup_IndoorRoute29",
     "gMapGroup_IndoorRoute30",
     "gMapGroup_IndoorRoute31",
     "gMapGroup_IndoorRoute32",
     "gMapGroup_IndoorRoute34",
     "gMapGroup_IndoorRoute36",
+    "gMapGroup_IndoorRoute39",
+    "gMapGroup_IndoorRoute43",
     "gMapGroup_RuinsOfAlph",
     "gMapGroup_NationalPark",
+    "gMapGroup_BattleTower",
+    "gMapGroup_WhirlIslands",
     "gMapGroup_LakeOfRage"
   ],
   "gMapGroup_TownsAndRoutes": [
@@ -1119,25 +1127,96 @@
     "GoldenrodCity_GameCorner",
     "GoldenrodCity_BillsFamilysHouse",
     "GoldenrodCity_PokemonCenter_1F",
-    "GoldenrodCity_GatehouseNorth"
+    "GoldenrodCity_GatehouseNorth",
+    "GoldenrodCity_MagnetTrainStation",
+    "GoldenrodCity_PokemonCenter_2F",
+    "GoldenrodCity_BikeShop",
+    "GoldenrodCity_DepartmentStore_1F",
+    "GoldenrodCity_DepartmentStore_2F",
+    "GoldenrodCity_DepartmentStore_3F",
+    "GoldenrodCity_DepartmentStore_4F",
+    "GoldenrodCity_DepartmentStore_5F",
+    "GoldenrodCity_DepartmentStore_6F",
+    "GoldenrodCity_DepartmentStore_Rooftop",
+    "GoldenrodCity_DepartmentStore_Elevator",
+    "GoldenrodCity_DepartmentStore_B1F",
+    "GoldenrodCity_RadioTower_1F",
+    "GoldenrodCity_RadioTower_2F",
+    "GoldenrodCity_RadioTower_3F",
+    "GoldenrodCity_RadioTower_4F",
+    "GoldenrodCity_RadioTower_5F"
   ],
   "gMapGroup_EcruteakCity": [
     "EcruteakCity",
-    "EcruteakCity_GatehouseWest"
+    "EcruteakCity_GatehouseWest",
+    "EcruteakCity_GatehouseEast",
+    "EcruteakCity_PokemonCenter_1F",
+    "EcruteakCity_PokemonCenter_2F",
+    "EcruteakCity_Mart",
+    "TinTower_1F",
+    "TinTower_2F",
+    "TinTower_3F",
+    "TinTower_4F",
+    "TinTower_5F",
+    "TinTower_6F",
+    "TinTower_7F",
+    "TinTower_8F",
+    "TinTower_9F",
+    "TinTower_10F",
+    "EcruteakCity_Gym",
+    "BarrierStation_NorthEntrance",
+    "BarrierStation_South",
+    "BarrierStation_North",
+    "BurnedTower_1F",
+    "BurnedTower_B1F",
+    "EcruteakCity_House1",
+    "EcruteakCity_House2",
+    "EcruteakCity_House3",
+    "EcruteakCity_House4",
+    "EcruteakCity_House5",
+    "EcruteakCity_House6",
+    "EcruteakCity_DanceTheater"
   ],
   "gMapGroup_OlivineCity": [
-    "OlivineCity"
+    "OlivineCity",
+    "OlivineCity_Harbor",
+    "OlivineCity_PokemonCenter_1F",
+    "OlivineCity_PokemonCenter_2F",
+    "OlivineCity_Mart",
+    "OlivineCity_Gym",
+    "OlivineCity_House1",
+    "OlivineCity_House2",
+    "OlivineCity_House3",
+    "OlivineCity_Cafe",
+    "OlivineCity_Lighthouse_1F"
   ],
   "gMapGroup_CianwoodCity": [
-    "CianwoodCity"
+    "CianwoodCity",
+    "CianwoodCity_PokemonCenter_1F",
+    "CianwoodCity_PokemonCenter_2F",
+    "CianwoodCity_Gym",
+    "CianwoodCity_KirksHouse",
+    "CianwoodCity_PhotoStudio",
+    "CianwoodCity_House1",
+    "CianwoodCity_House2"
   ],
   "gMapGroup_MahoganyTown": [
-    "MahoganyTown"
+    "MahoganyTown",
+    "MahoganyTown_Gatehouse",
+    "MahoganyTown_RocketHideout_1F",
+    "MahoganyTown_RocketHideout_B1F",
+    "MahoganyTown_RocketHideout_B2F",
+    "MahoganyTown_RocketHideout_B3F",
+    "MahoganyTown_PokemonCenter_1F",
+    "MahoganyTown_PokemonCenter_2F",
+    "MahoganyTown_Gym"
   ],
   "gMapGroup_BlackthornCity": [
-
+    "BlackthornCity"
   ],
   "gMapGroup_JohtoRoutes": [
+    "Route26",
+    "Route27",
     "Route29",
     "Route30",
     "Route31",
@@ -1152,13 +1231,33 @@
     "Route40",
     "Route41",
     "Route42",
-    "Route43"
+    "Route43",
+    "Route44",
+    "Route45",
+    "Route46"
   ],
   "gMapGroup_JohtoDungeons": [
     "UnionCave_1F",
     "UnionCave_B1F",
     "UnionCave_B2F",
-    "IlexForest"
+    "IlexForest",
+    "DarkCave_Violet",
+    "DarkCave_Blackthorn",
+    "TohjoFalls"
+  ],
+  "gMapGroup_IndoorRoute26": [
+    "Route26_Gatehouse",
+    "Route26_House1",
+    "Route26_House2"
+  ],
+  "gMapGroup_IndoorRoute27": [
+    "Route27_House"
+  ],
+  "gMapGroup_IndoorRoute28": [
+
+  ],
+  "gMapGroup_IndoorRoute29": [
+    "Route29_Gatehouse"
   ],
   "gMapGroup_IndoorRoute30": [
     "Route30_House1",
@@ -1178,6 +1277,13 @@
   ],
   "gMapGroup_IndoorRoute36": [
     "Route36_Gatehouse"
+  ],
+  "gMapGroup_IndoorRoute39": [
+    "MooMooFarm",
+    "MooMooFarm_Barn"
+  ],
+  "gMapGroup_IndoorRoute43": [
+
   ],
   "gMapGroup_RuinsOfAlph": [
     "RuinsOfAlph_Outside",
@@ -1200,6 +1306,12 @@
     "NationalPark",
     "NationalPark_GatehouseSouth",
     "NationalPark_GatehouseEast"
+  ],
+  "gMapGroup_BattleTower": [
+
+  ],
+  "gMapGroup_WhirlIslands": [
+
   ],
   "gMapGroup_LakeOfRage": [
     "LakeOfRage"

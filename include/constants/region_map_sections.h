@@ -224,50 +224,57 @@
 #define MAPSEC_CIANWOOD_CITY                0xDC
 #define MAPSEC_MAHOGANY_TOWN                0xDD
 #define MAPSEC_BLACKTHORN_CITY              0xDE
-#define MAPSEC_ROUTE_29                     0xDF
-#define MAPSEC_ROUTE_30                     0xE0
-#define MAPSEC_ROUTE_31                     0xE1
-#define MAPSEC_ROUTE_32                     0xE2
-#define MAPSEC_ROUTE_33                     0xE3
-#define MAPSEC_ROUTE_34                     0xE4
-#define MAPSEC_ROUTE_35                     0xE5
-#define MAPSEC_ROUTE_36                     0xE6
-#define MAPSEC_ROUTE_37                     0xE7
-#define MAPSEC_ROUTE_38                     0xE8
-#define MAPSEC_ROUTE_39                     0xE9
-#define MAPSEC_ROUTE_40                     0xEA
-#define MAPSEC_ROUTE_41                     0xEB
-#define MAPSEC_ROUTE_42                     0xEC
-#define MAPSEC_ROUTE_43                     0xED
-#define MAPSEC_ROUTE_44                     0xEE
-#define MAPSEC_ROUTE_45                     0xEF
-#define MAPSEC_ROUTE_46                     0xF0
-#define MAPSEC_RUINS_OF_ALPH                0xF1
-#define MAPSEC_SLOWPOKE_WELL                0xF2
-#define MAPSEC_UNION_CAVE                   0xF3
-#define MAPSEC_ILEX_FOREST                  0xF4
-#define MAPSEC_RADIO_TOWER                  0xF5
-#define MAPSEC_NATIONAL_PARK                0xF6
-#define MAPSEC_TIN_TOWER                    0xF7
-#define MAPSEC_BELL_TOWER                   0xF8
-#define MAPSEC_BURNED_TOWER                 0xF9
-#define MAPSEC_SPROUT_TOWER                 0xFA
-#define MAPSEC_WHIRL_ISLANDS                0xFB
-#define MAPSEC_NONE                         0xFC
+#define MAPSEC_ROUTE_26                     0xDF
+#define MAPSEC_ROUTE_27                     0xE0
+#define MAPSEC_ROUTE_28                     0xE1
+#define MAPSEC_ROUTE_29                     0xE2
+#define MAPSEC_ROUTE_30                     0xE3
+#define MAPSEC_ROUTE_31                     0xE4
+#define MAPSEC_ROUTE_32                     0xE5
+#define MAPSEC_ROUTE_33                     0xE6
+#define MAPSEC_ROUTE_34                     0xE7
+#define MAPSEC_ROUTE_35                     0xE8
+#define MAPSEC_ROUTE_36                     0xE9
+#define MAPSEC_ROUTE_37                     0xEA
+#define MAPSEC_ROUTE_38                     0xEB
+#define MAPSEC_ROUTE_39                     0xEC
+#define MAPSEC_ROUTE_40                     0xED
+#define MAPSEC_ROUTE_41                     0xEE
+#define MAPSEC_ROUTE_42                     0xEF
+#define MAPSEC_ROUTE_43                     0xF0
+#define MAPSEC_ROUTE_44                     0xF1
+#define MAPSEC_ROUTE_45                     0xF2
+#define MAPSEC_ROUTE_46                     0xF3
+#define MAPSEC_RUINS_OF_ALPH                0xF4
+#define MAPSEC_SLOWPOKE_WELL                0xF5
+#define MAPSEC_UNION_CAVE                   0xF6
+#define MAPSEC_ILEX_FOREST                  0xF7
+#define MAPSEC_RADIO_TOWER                  0xF8
+#define MAPSEC_NATIONAL_PARK                0xF9
+#define MAPSEC_TIN_TOWER                    0xFA
+#define MAPSEC_BELL_TOWER                   0xFB
+#define MAPSEC_BURNED_TOWER                 0xFC
+#define MAPSEC_SPROUT_TOWER                 0xFD
+#define MAPSEC_WHIRL_ISLANDS                0xFE
+#define MAPSEC_DARK_CAVE                    0xFF
+#define MAPSEC_MT_MORTAR                    0x100
+#define MAPSEC_LAKE_OF_RAGE                 0x101
+#define MAPSEC_DRAGONS_DEN                  0x102
+#define MAPSEC_TOHJO_FALLS                  0x103
+#define MAPSEC_MT_SILVER                    0x104
+#define MAPSEC_NONE                         0x105
 
-#define METLOC_SPECIAL_EGG                  0xFD
-#define METLOC_IN_GAME_TRADE                0xFE
-#define METLOC_FATEFUL_ENCOUNTER            0xFF
+#define METLOC_SPECIAL_EGG                  0x106
+#define METLOC_IN_GAME_TRADE                0x107
+#define METLOC_FATEFUL_ENCOUNTER            0x108
 
-#define MAPSEC_DARK_CAVE                    0x100
-#define MAPSEC_MT_MORTAR                    0x101
-#define MAPSEC_LAKE_OF_RAGE                 0x102
-#define MAPSEC_DRAGONS_DEN                  0x103
-#define MAPSEC_TOHJO_FALLS                  0x104
-#define MAPSEC_MT_SILVER                    0x105
 
 #define KANTO_MAPSEC_START  MAPSEC_PALLET_TOWN
 #define KANTO_MAPSEC_END    MAPSEC_SPECIAL_AREA
 #define KANTO_MAPSEC_COUNT (KANTO_MAPSEC_END - KANTO_MAPSEC_START + 1)
+
+#define JOHTO_MAPSEC_START  MAPSEC_NEW_BARK_TOWN
+#define JOHTO_MAPSEC_END    MAPSEC_MT_SILVER
+#define JOHTO_MAPSEC_COUNT (JOHTO_MAPSEC_END - JOHTO_MAPSEC_START + 1)
 
 #endif //GUARD_REGIONMAPSEC_H

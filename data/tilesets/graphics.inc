@@ -3349,3 +3349,103 @@ gTilesetPalettes_MahoganyTown::
 	.align 2
 gTilesetTiles_MahoganyTown::
 	.incbin "data/tilesets/secondary/mahoganytown/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_BlackthornCity::
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/blackthorncity/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_BlackthornCity::
+	.incbin "data/tilesets/secondary/blackthorncity/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MagnetTrain::
+	.incbin "data/tilesets/secondary/magnettrain/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/magnettrain/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MagnetTrain::
+	.incbin "data/tilesets/secondary/magnettrain/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_JohtoDepartmentStore::
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/johtodepartmentstore/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_JohtoDepartmentStore::
+	.incbin "data/tilesets/secondary/johtodepartmentstore/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_RadioTower::
+	.incbin "data/tilesets/secondary/radiotower/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/radiotower/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_RadioTower::
+	.incbin "data/tilesets/secondary/radiotower/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_OlivineCityGym::
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/olivinecitygym/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_OlivineCityGym::
+	.incbin "data/tilesets/secondary/olivinecitygym/tiles.4bpp.lz"

@@ -1629,3 +1629,173 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Route43/scripts.inc"
 
 	.include "data/maps/LakeOfRage/scripts.inc"
+
+	.include "data/maps/Route44/scripts.inc"
+
+	.include "data/maps/BlackthornCity/scripts.inc"
+
+	.include "data/maps/Route45/scripts.inc"
+
+	.include "data/maps/Route46/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"
+
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/EcruteakCity_GatehouseEast/scripts.inc"
+
+	.include "data/maps/MahoganyTown_Gatehouse/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_MagnetTrainStation/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_BikeShop/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_3F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_4F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_5F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_6F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_Rooftop/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_Elevator/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_DepartmentStore_B1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_1F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_2F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_3F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_4F/scripts.inc"
+
+	.include "data/maps/GoldenrodCity_RadioTower_5F/scripts.inc"
+
+	.include "data/maps/DarkCave_Violet/scripts.inc"
+
+	.include "data/maps/DarkCave_Blackthorn/scripts.inc"
+
+	.include "data/maps/Route29_Gatehouse/scripts.inc"
+
+	.include "data/maps/Route26_Gatehouse/scripts.inc"
+
+	.include "data/maps/Route26_House1/scripts.inc"
+
+	.include "data/maps/Route26_House2/scripts.inc"
+
+	.include "data/maps/Route27_House/scripts.inc"
+
+	.include "data/maps/TohjoFalls/scripts.inc"
+
+	.include "data/maps/MooMooFarm/scripts.inc"
+
+	.include "data/maps/MooMooFarm_Barn/scripts.inc"
+
+	.include "data/maps/EcruteakCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/EcruteakCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/EcruteakCity_Mart/scripts.inc"
+
+	.include "data/maps/TinTower_1F/scripts.inc"
+
+	.include "data/maps/TinTower_2F/scripts.inc"
+
+	.include "data/maps/TinTower_3F/scripts.inc"
+
+	.include "data/maps/TinTower_4F/scripts.inc"
+
+	.include "data/maps/TinTower_5F/scripts.inc"
+
+	.include "data/maps/TinTower_6F/scripts.inc"
+
+	.include "data/maps/TinTower_7F/scripts.inc"
+
+	.include "data/maps/TinTower_8F/scripts.inc"
+
+	.include "data/maps/TinTower_9F/scripts.inc"
+
+	.include "data/maps/TinTower_10F/scripts.inc"
+
+	.include "data/maps/EcruteakCity_Gym/scripts.inc"
+
+	.include "data/maps/BarrierStation_NorthEntrance/scripts.inc"
+
+	.include "data/maps/BarrierStation_South/scripts.inc"
+
+	.include "data/maps/BarrierStation_North/scripts.inc"
+
+	.include "data/maps/BurnedTower_1F/scripts.inc"
+
+	.include "data/maps/BurnedTower_B1F/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House1/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House2/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House3/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House4/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House5/scripts.inc"
+
+	.include "data/maps/EcruteakCity_House6/scripts.inc"
+
+	.include "data/maps/EcruteakCity_DanceTheater/scripts.inc"
+
+	.include "data/maps/OlivineCity_Harbor/scripts.inc"
+
+	.include "data/maps/OlivineCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/OlivineCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/OlivineCity_Mart/scripts.inc"
+
+	.include "data/maps/OlivineCity_Gym/scripts.inc"
+
+	.include "data/maps/OlivineCity_House1/scripts.inc"
+
+	.include "data/maps/OlivineCity_House2/scripts.inc"
+
+	.include "data/maps/OlivineCity_House3/scripts.inc"
+
+	.include "data/maps/OlivineCity_Cafe/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_1F/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/CianwoodCity_Gym/scripts.inc"
+
+	.include "data/maps/CianwoodCity_KirksHouse/scripts.inc"
+
+	.include "data/maps/CianwoodCity_PhotoStudio/scripts.inc"
+
+	.include "data/maps/CianwoodCity_House1/scripts.inc"
+
+	.include "data/maps/CianwoodCity_House2/scripts.inc"
+
+	.include "data/maps/MahoganyTown_RocketHideout_1F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_RocketHideout_B1F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_RocketHideout_B2F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_RocketHideout_B3F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/MahoganyTown_Gym/scripts.inc"

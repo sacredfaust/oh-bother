@@ -1129,3 +1129,38 @@ gMetatiles_MahoganyTown::
 	.align 1
 gMetatileAttributes_MahoganyTown::
 	.incbin "data/tilesets/secondary/mahoganytown/metatile_attributes.bin"
+	.align 1
+gMetatiles_BlackthornCity::
+	.incbin "data/tilesets/secondary/blackthorncity/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_BlackthornCity::
+	.incbin "data/tilesets/secondary/blackthorncity/metatile_attributes.bin"
+	.align 1
+gMetatiles_MagnetTrain::
+	.incbin "data/tilesets/secondary/magnettrain/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MagnetTrain::
+	.incbin "data/tilesets/secondary/magnettrain/metatile_attributes.bin"
+	.align 1
+gMetatiles_JohtoDepartmentStore::
+	.incbin "data/tilesets/secondary/johtodepartmentstore/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_JohtoDepartmentStore::
+	.incbin "data/tilesets/secondary/johtodepartmentstore/metatile_attributes.bin"
+	.align 1
+gMetatiles_RadioTower::
+	.incbin "data/tilesets/secondary/radiotower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_RadioTower::
+	.incbin "data/tilesets/secondary/radiotower/metatile_attributes.bin"
+	.align 1
+gMetatiles_OlivineCityGym::
+	.incbin "data/tilesets/secondary/olivinecitygym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_OlivineCityGym::
+	.incbin "data/tilesets/secondary/olivinecitygym/metatile_attributes.bin"

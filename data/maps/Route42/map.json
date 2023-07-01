@@ -20,7 +20,7 @@
     },
     {
       "direction": "right",
-      "offset": 0,
+      "offset": -2,
       "map": "MAP_MAHOGANY_TOWN"
     }
   ],
@@ -28,7 +28,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE42",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 59,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE42",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_CITY_GATEHOUSE_EAST",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 36,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE42",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

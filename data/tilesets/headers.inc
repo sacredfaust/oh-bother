@@ -1721,3 +1721,58 @@ gTileset_MahoganyTown::
 	.4byte gMetatiles_MahoganyTown
 	.4byte gMetatileAttributes_MahoganyTown
 	.4byte NULL
+
+	.align 2
+gTileset_BlackthornCity::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_BlackthornCity
+	.4byte gTilesetPalettes_BlackthornCity
+	.4byte gMetatiles_BlackthornCity
+	.4byte gMetatileAttributes_BlackthornCity
+	.4byte NULL
+
+	.align 2
+gTileset_MagnetTrain::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MagnetTrain
+	.4byte gTilesetPalettes_MagnetTrain
+	.4byte gMetatiles_MagnetTrain
+	.4byte gMetatileAttributes_MagnetTrain
+	.4byte NULL
+
+	.align 2
+gTileset_JohtoDepartmentStore::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_JohtoDepartmentStore
+	.4byte gTilesetPalettes_JohtoDepartmentStore
+	.4byte gMetatiles_JohtoDepartmentStore
+	.4byte gMetatileAttributes_JohtoDepartmentStore
+	.4byte NULL
+
+	.align 2
+gTileset_RadioTower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_RadioTower
+	.4byte gTilesetPalettes_RadioTower
+	.4byte gMetatiles_RadioTower
+	.4byte gMetatileAttributes_RadioTower
+	.4byte NULL
+
+	.align 2
+gTileset_OlivineCityGym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_OlivineCityGym
+	.4byte gTilesetPalettes_OlivineCityGym
+	.4byte gMetatiles_OlivineCityGym
+	.4byte gMetatileAttributes_OlivineCityGym
+	.4byte NULL
