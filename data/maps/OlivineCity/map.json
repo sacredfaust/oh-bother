@@ -22,6 +22,11 @@
       "direction": "left",
       "offset": 24,
       "map": "MAP_ROUTE40"
+    },
+    {
+      "direction": "left",
+      "offset": -9,
+      "map": "MAP_BATTLE_TOWER_OUTSIDE"
     }
   ],
   "object_events": [
@@ -89,7 +94,7 @@
       "y": 42,
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_CITY_LIGHTHOUSE_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

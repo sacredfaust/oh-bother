@@ -1799,3 +1799,115 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/MahoganyTown_PokemonCenter_2F/scripts.inc"
 
 	.include "data/maps/MahoganyTown_Gym/scripts.inc"
+
+	.include "data/maps/MahoganyTown_House/scripts.inc"
+
+	.include "data/maps/BlackthornCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/BlackthornCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Mart/scripts.inc"
+
+	.include "data/maps/BlackthornCity_MoveDeletersHouse/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House1/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House2/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Gym/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Gym_2F/scripts.inc"
+
+	.include "data/maps/BattleTower_Gatehouse/scripts.inc"
+
+	.include "data/maps/WhirlIslands_NorthWestEntrance/scripts.inc"
+
+	.include "data/maps/WhirlIslands_NorthEastEntrance/scripts.inc"
+
+	.include "data/maps/WhirlIslands_SouthWestEntrance/scripts.inc"
+
+	.include "data/maps/WhirlIslands_SouthEastEntrance/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B2F/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B3F/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B4F/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B5F/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B6F/scripts.inc"
+
+	.include "data/maps/WhirlIslands_B7F/scripts.inc"
+
+	.include "data/maps/Route43_Gatehouse/scripts.inc"
+
+	.include "data/maps/LakeOfRage_House1/scripts.inc"
+
+	.include "data/maps/LakeOfRage_House2/scripts.inc"
+
+	.include "data/maps/MtMortar_Entrance/scripts.inc"
+
+	.include "data/maps/MtMortar_1F/scripts.inc"
+
+	.include "data/maps/MtMortar_2F/scripts.inc"
+
+	.include "data/maps/MtMortar_B1F/scripts.inc"
+
+	.include "data/maps/IcePath/scripts.inc"
+
+	.include "data/maps/IcePath_B1F/scripts.inc"
+
+	.include "data/maps/IcePath_B1F_2/scripts.inc"
+
+	.include "data/maps/IcePath_B2F/scripts.inc"
+
+	.include "data/maps/IcePath_B2f_2/scripts.inc"
+
+	.include "data/maps/IcePath_B3F/scripts.inc"
+
+	.include "data/maps/DragonsDen_Entrance/scripts.inc"
+
+	.include "data/maps/DragonsDen_B1F/scripts.inc"
+
+	.include "data/maps/DragonsDen_B2F/scripts.inc"
+
+	.include "data/maps/DragonsDen_House/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_2F/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_3F/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_4F/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_5F/scripts.inc"
+
+	.include "data/maps/OlivineCity_Lighthouse_6F/scripts.inc"
+
+	.include "data/maps/BattleTower_Outside/scripts.inc"
+
+	.include "data/maps/BattleTower_Lobby/scripts.inc"
+
+	.include "data/maps/BattleTower_Elevator/scripts.inc"
+
+	.include "data/maps/BattleTower_Corridor/scripts.inc"
+
+	.include "data/maps/BattleTower_BattleRoom/scripts.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/Route28_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route28_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/Route28_House/scripts.inc"
+
+	.include "data/maps/MtSilver_Entrance/scripts.inc"
+
+	.include "data/maps/MtSilver_MainRoom/scripts.inc"
+
+	.include "data/maps/MtSilver_SouthRoom/scripts.inc"
+
+	.include "data/maps/MtSilver_NorthRoom/scripts.inc"
+
+	.include "data/maps/MtSilver_BossRoom/scripts.inc"

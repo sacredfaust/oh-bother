@@ -1188,7 +1188,12 @@
     "OlivineCity_House2",
     "OlivineCity_House3",
     "OlivineCity_Cafe",
-    "OlivineCity_Lighthouse_1F"
+    "OlivineCity_Lighthouse_1F",
+    "OlivineCity_Lighthouse_2F",
+    "OlivineCity_Lighthouse_3F",
+    "OlivineCity_Lighthouse_4F",
+    "OlivineCity_Lighthouse_5F",
+    "OlivineCity_Lighthouse_6F"
   ],
   "gMapGroup_CianwoodCity": [
     "CianwoodCity",
@@ -1209,14 +1214,28 @@
     "MahoganyTown_RocketHideout_B3F",
     "MahoganyTown_PokemonCenter_1F",
     "MahoganyTown_PokemonCenter_2F",
-    "MahoganyTown_Gym"
+    "MahoganyTown_Gym",
+    "MahoganyTown_House"
   ],
   "gMapGroup_BlackthornCity": [
-    "BlackthornCity"
+    "BlackthornCity",
+    "BlackthornCity_PokemonCenter_1F",
+    "BlackthornCity_PokemonCenter_2F",
+    "BlackthornCity_Mart",
+    "BlackthornCity_MoveDeletersHouse",
+    "BlackthornCity_House1",
+    "BlackthornCity_House2",
+    "BlackthornCity_Gym",
+    "BlackthornCity_Gym_2F",
+    "DragonsDen_Entrance",
+    "DragonsDen_B1F",
+    "DragonsDen_B2F",
+    "DragonsDen_House"
   ],
   "gMapGroup_JohtoRoutes": [
     "Route26",
     "Route27",
+    "Route28",
     "Route29",
     "Route30",
     "Route31",
@@ -1243,7 +1262,22 @@
     "IlexForest",
     "DarkCave_Violet",
     "DarkCave_Blackthorn",
-    "TohjoFalls"
+    "TohjoFalls",
+    "MtMortar_Entrance",
+    "MtMortar_1F",
+    "MtMortar_2F",
+    "MtMortar_B1F",
+    "IcePath",
+    "IcePath_B1F",
+    "IcePath_B1F_2",
+    "IcePath_B2F",
+    "IcePath_B2f_2",
+    "IcePath_B3F",
+    "MtSilver_Entrance",
+    "MtSilver_MainRoom",
+    "MtSilver_SouthRoom",
+    "MtSilver_NorthRoom",
+    "MtSilver_BossRoom"
   ],
   "gMapGroup_IndoorRoute26": [
     "Route26_Gatehouse",
@@ -1254,7 +1288,9 @@
     "Route27_House"
   ],
   "gMapGroup_IndoorRoute28": [
-
+    "Route28_PokemonCenter_1F",
+    "Route28_PokemonCenter_2F",
+    "Route28_House"
   ],
   "gMapGroup_IndoorRoute29": [
     "Route29_Gatehouse"
@@ -1283,7 +1319,7 @@
     "MooMooFarm_Barn"
   ],
   "gMapGroup_IndoorRoute43": [
-
+    "Route43_Gatehouse"
   ],
   "gMapGroup_RuinsOfAlph": [
     "RuinsOfAlph_Outside",
@@ -1308,12 +1344,28 @@
     "NationalPark_GatehouseEast"
   ],
   "gMapGroup_BattleTower": [
-
+    "BattleTower_Gatehouse",
+    "BattleTower_Outside",
+    "BattleTower_Lobby",
+    "BattleTower_Elevator",
+    "BattleTower_Corridor",
+    "BattleTower_BattleRoom"
   ],
   "gMapGroup_WhirlIslands": [
-
+    "WhirlIslands_NorthWestEntrance",
+    "WhirlIslands_NorthEastEntrance",
+    "WhirlIslands_SouthWestEntrance",
+    "WhirlIslands_SouthEastEntrance",
+    "WhirlIslands_B2F",
+    "WhirlIslands_B3F",
+    "WhirlIslands_B4F",
+    "WhirlIslands_B5F",
+    "WhirlIslands_B6F",
+    "WhirlIslands_B7F"
   ],
   "gMapGroup_LakeOfRage": [
-    "LakeOfRage"
+    "LakeOfRage",
+    "LakeOfRage_House1",
+    "LakeOfRage_House2"
   ]
 }

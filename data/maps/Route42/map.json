@@ -32,15 +32,15 @@
       "x": 14,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE42",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MT_MORTAR_ENTRANCE",
+      "dest_warp_id": 6
     },
     {
       "x": 59,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE42",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MT_MORTAR_ENTRANCE",
+      "dest_warp_id": 8
     },
     {
       "x": 0,
@@ -53,8 +53,8 @@
       "x": 36,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE42",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MT_MORTAR_ENTRANCE",
+      "dest_warp_id": 7
     }
   ],
   "coord_events": [
