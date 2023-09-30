@@ -22,13 +22,31 @@
       "direction": "down",
       "offset": -40,
       "map": "MAP_ROUTE41"
+    },
+    {
+      "direction": "up",
+      "offset": 4,
+      "map": "MAP_BATTLE_TOWER_OUTSIDE"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_BATTLE_TOWER_GATEHOUSE",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_BATTLE_TOWER_GATEHOUSE",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

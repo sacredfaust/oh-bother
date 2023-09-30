@@ -28,7 +28,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_WHIRL_ISLANDS_NORTH_WEST_ENTRANCE",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 45,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_WHIRL_ISLANDS_NORTH_EAST_ENTRANCE",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 12,
+      "y": 49,
+      "elevation": 0,
+      "dest_map": "MAP_WHIRL_ISLANDS_SOUTH_WEST_ENTRANCE",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 43,
+      "y": 55,
+      "elevation": 0,
+      "dest_map": "MAP_WHIRL_ISLANDS_SOUTH_EAST_ENTRANCE",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

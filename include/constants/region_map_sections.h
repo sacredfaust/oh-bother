@@ -258,15 +258,16 @@
 #define MAPSEC_WHIRL_ISLANDS                0xFE
 #define MAPSEC_DARK_CAVE                    0xFF
 #define MAPSEC_MT_MORTAR                    0x100
-#define MAPSEC_LAKE_OF_RAGE                 0x101
-#define MAPSEC_DRAGONS_DEN                  0x102
-#define MAPSEC_TOHJO_FALLS                  0x103
-#define MAPSEC_MT_SILVER                    0x104
-#define MAPSEC_NONE                         0x105
+#define MAPSEC_ICE_PATH                     0x101
+#define MAPSEC_LAKE_OF_RAGE                 0x102
+#define MAPSEC_DRAGONS_DEN                  0x103
+#define MAPSEC_TOHJO_FALLS                  0x104
+#define MAPSEC_MT_SILVER                    0x105
+#define MAPSEC_NONE                         0x106
 
-#define METLOC_SPECIAL_EGG                  0x106
-#define METLOC_IN_GAME_TRADE                0x107
-#define METLOC_FATEFUL_ENCOUNTER            0x108
+#define METLOC_SPECIAL_EGG                  0x107
+#define METLOC_IN_GAME_TRADE                0x108
+#define METLOC_FATEFUL_ENCOUNTER            0x109
 
 
 #define KANTO_MAPSEC_START  MAPSEC_PALLET_TOWN

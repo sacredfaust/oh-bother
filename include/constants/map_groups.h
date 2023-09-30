@@ -1107,6 +1107,11 @@
 #define MAP_OLIVINE_CITY_HOUSE3            (8 | (59 << 8))
 #define MAP_OLIVINE_CITY_CAFE              (9 | (59 << 8))
 #define MAP_OLIVINE_CITY_LIGHTHOUSE_1F     (10 | (59 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE_2F     (11 | (59 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE_3F     (12 | (59 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE_4F     (13 | (59 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE_5F     (14 | (59 << 8))
+#define MAP_OLIVINE_CITY_LIGHTHOUSE_6F     (15 | (59 << 8))
 
 // Map Group 60
 #define MAP_CIANWOOD_CITY                   (0 | (60 << 8))
@@ -1128,31 +1133,45 @@
 #define MAP_MAHOGANY_TOWN_POKEMON_CENTER_1F  (6 | (61 << 8))
 #define MAP_MAHOGANY_TOWN_POKEMON_CENTER_2F  (7 | (61 << 8))
 #define MAP_MAHOGANY_TOWN_GYM                (8 | (61 << 8))
+#define MAP_MAHOGANY_TOWN_HOUSE              (9 | (61 << 8))
 
 // Map Group 62
-#define MAP_BLACKTHORN_CITY (0 | (62 << 8))
+#define MAP_BLACKTHORN_CITY                     (0 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_POKEMON_CENTER_1F   (1 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_POKEMON_CENTER_2F   (2 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_MART                (3 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_MOVE_DELETERS_HOUSE (4 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_HOUSE1              (5 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_HOUSE2              (6 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_GYM                 (7 | (62 << 8))
+#define MAP_BLACKTHORN_CITY_GYM_2F              (8 | (62 << 8))
+#define MAP_DRAGONS_DEN_ENTRANCE                (9 | (62 << 8))
+#define MAP_DRAGONS_DEN_B1F                     (10 | (62 << 8))
+#define MAP_DRAGONS_DEN_B2F                     (11 | (62 << 8))
+#define MAP_DRAGONS_DEN_HOUSE                   (12 | (62 << 8))
 
 // Map Group 63
 #define MAP_ROUTE26 (0 | (63 << 8))
 #define MAP_ROUTE27 (1 | (63 << 8))
-#define MAP_ROUTE29 (2 | (63 << 8))
-#define MAP_ROUTE30 (3 | (63 << 8))
-#define MAP_ROUTE31 (4 | (63 << 8))
-#define MAP_ROUTE32 (5 | (63 << 8))
-#define MAP_ROUTE33 (6 | (63 << 8))
-#define MAP_ROUTE34 (7 | (63 << 8))
-#define MAP_ROUTE35 (8 | (63 << 8))
-#define MAP_ROUTE36 (9 | (63 << 8))
-#define MAP_ROUTE37 (10 | (63 << 8))
-#define MAP_ROUTE38 (11 | (63 << 8))
-#define MAP_ROUTE39 (12 | (63 << 8))
-#define MAP_ROUTE40 (13 | (63 << 8))
-#define MAP_ROUTE41 (14 | (63 << 8))
-#define MAP_ROUTE42 (15 | (63 << 8))
-#define MAP_ROUTE43 (16 | (63 << 8))
-#define MAP_ROUTE44 (17 | (63 << 8))
-#define MAP_ROUTE45 (18 | (63 << 8))
-#define MAP_ROUTE46 (19 | (63 << 8))
+#define MAP_ROUTE28 (2 | (63 << 8))
+#define MAP_ROUTE29 (3 | (63 << 8))
+#define MAP_ROUTE30 (4 | (63 << 8))
+#define MAP_ROUTE31 (5 | (63 << 8))
+#define MAP_ROUTE32 (6 | (63 << 8))
+#define MAP_ROUTE33 (7 | (63 << 8))
+#define MAP_ROUTE34 (8 | (63 << 8))
+#define MAP_ROUTE35 (9 | (63 << 8))
+#define MAP_ROUTE36 (10 | (63 << 8))
+#define MAP_ROUTE37 (11 | (63 << 8))
+#define MAP_ROUTE38 (12 | (63 << 8))
+#define MAP_ROUTE39 (13 | (63 << 8))
+#define MAP_ROUTE40 (14 | (63 << 8))
+#define MAP_ROUTE41 (15 | (63 << 8))
+#define MAP_ROUTE42 (16 | (63 << 8))
+#define MAP_ROUTE43 (17 | (63 << 8))
+#define MAP_ROUTE44 (18 | (63 << 8))
+#define MAP_ROUTE45 (19 | (63 << 8))
+#define MAP_ROUTE46 (20 | (63 << 8))
 
 // Map Group 64
 #define MAP_UNION_CAVE_1F        (0 | (64 << 8))
@@ -1162,6 +1181,21 @@
 #define MAP_DARK_CAVE_VIOLET     (4 | (64 << 8))
 #define MAP_DARK_CAVE_BLACKTHORN (5 | (64 << 8))
 #define MAP_TOHJO_FALLS          (6 | (64 << 8))
+#define MAP_MT_MORTAR_ENTRANCE   (7 | (64 << 8))
+#define MAP_MT_MORTAR_1F         (8 | (64 << 8))
+#define MAP_MT_MORTAR_2F         (9 | (64 << 8))
+#define MAP_MT_MORTAR_B1F        (10 | (64 << 8))
+#define MAP_ICE_PATH             (11 | (64 << 8))
+#define MAP_ICE_PATH_B1F         (12 | (64 << 8))
+#define MAP_ICE_PATH_B1F_2       (13 | (64 << 8))
+#define MAP_ICE_PATH_B2F         (14 | (64 << 8))
+#define MAP_ICE_PATH_B2F_2       (15 | (64 << 8))
+#define MAP_ICE_PATH_B3F         (16 | (64 << 8))
+#define MAP_MT_SILVER_ENTRANCE   (17 | (64 << 8))
+#define MAP_MT_SILVER_MAIN_ROOM  (18 | (64 << 8))
+#define MAP_MT_SILVER_SOUTH_ROOM (19 | (64 << 8))
+#define MAP_MT_SILVER_NORTH_ROOM (20 | (64 << 8))
+#define MAP_MT_SILVER_BOSS_ROOM  (21 | (64 << 8))
 
 // Map Group 65
 #define MAP_ROUTE26_GATEHOUSE (0 | (65 << 8))
@@ -1172,6 +1206,9 @@
 #define MAP_ROUTE27_HOUSE (0 | (66 << 8))
 
 // Map Group 67
+#define MAP_ROUTE28_POKEMON_CENTER_1F (0 | (67 << 8))
+#define MAP_ROUTE28_POKEMON_CENTER_2F (1 | (67 << 8))
+#define MAP_ROUTE28_HOUSE             (2 | (67 << 8))
 
 // Map Group 68
 #define MAP_ROUTE29_GATEHOUSE (0 | (68 << 8))
@@ -1200,6 +1237,7 @@
 #define MAP_MOO_MOO_FARM_BARN (1 | (74 << 8))
 
 // Map Group 75
+#define MAP_ROUTE43_GATEHOUSE (0 | (75 << 8))
 
 // Map Group 76
 #define MAP_RUINS_OF_ALPH_OUTSIDE              (0 | (76 << 8))
@@ -1224,11 +1262,29 @@
 #define MAP_NATIONAL_PARK_GATEHOUSE_EAST  (2 | (77 << 8))
 
 // Map Group 78
+#define MAP_BATTLE_TOWER_GATEHOUSE   (0 | (78 << 8))
+#define MAP_BATTLE_TOWER_OUTSIDE     (1 | (78 << 8))
+#define MAP_BATTLE_TOWER_LOBBY       (2 | (78 << 8))
+#define MAP_BATTLE_TOWER_ELEVATOR    (3 | (78 << 8))
+#define MAP_BATTLE_TOWER_CORRIDOR    (4 | (78 << 8))
+#define MAP_BATTLE_TOWER_BATTLE_ROOM (5 | (78 << 8))
 
 // Map Group 79
+#define MAP_WHIRL_ISLANDS_NORTH_WEST_ENTRANCE (0 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_NORTH_EAST_ENTRANCE (1 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_SOUTH_WEST_ENTRANCE (2 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_SOUTH_EAST_ENTRANCE (3 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B2F                 (4 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B3F                 (5 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B4F                 (6 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B5F                 (7 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B6F                 (8 | (79 << 8))
+#define MAP_WHIRL_ISLANDS_B7F                 (9 | (79 << 8))
 
 // Map Group 80
-#define MAP_LAKE_OF_RAGE (0 | (80 << 8))
+#define MAP_LAKE_OF_RAGE        (0 | (80 << 8))
+#define MAP_LAKE_OF_RAGE_HOUSE1 (1 | (80 << 8))
+#define MAP_LAKE_OF_RAGE_HOUSE2 (2 | (80 << 8))
 
 #define MAP_GROUPS_COUNT 81
 
