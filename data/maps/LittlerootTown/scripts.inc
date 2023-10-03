@@ -247,7 +247,47 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale::
 	end
 
 LittlerootTown_EventScript_FatMan::
+	lock
+	faceplayer
+	setflag FLAG_SYS_B_DASH
+	setvar VAR_LITTLEROOT_TOWN_STATE, 4
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_SYS_POKEDEX_GET
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_SYS_NATIONAL_DEX
+	setflag FLAG_RESCUED_BIRCH
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_BADGE01_GET
+	setflag FLAG_DEFEATED_DEWFORD_GYM
+	setflag FLAG_BADGE02_GET
+	setflag FLAG_DEFEATED_MAUVILLE_GYM
+	setflag FLAG_BADGE03_GET
+	setflag FLAG_DEFEATED_LAVARIDGE_GYM
+	setflag FLAG_BADGE04_GET
+	setflag FLAG_DEFEATED_PETALBURG_GYM
+	setflag FLAG_BADGE05_GET
+	setflag FLAG_DEFEATED_FORTREE_GYM
+	setflag FLAG_BADGE06_GET
+	setflag FLAG_DEFEATED_MOSSDEEP_GYM
+	setflag FLAG_BADGE07_GET
+	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
+	setflag FLAG_BADGE08_GET
+	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
+	setflag FLAG_IS_CHAMPION
+	givemon SPECIES_RAYQUAZA, 100, ITEM_NONE
+	givemon SPECIES_LATIOS, 100, ITEM_NONE
+	giveitem ITEM_MACH_BIKE
+	giveitem ITEM_HM01
+	giveitem ITEM_HM02
+	giveitem ITEM_HM03
+	giveitem ITEM_HM04
+	giveitem ITEM_HM05
+	giveitem ITEM_HM06
+	giveitem ITEM_HM07
+	giveitem ITEM_HM08
+	waitfanfare
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	release
 	end
 
 LittlerootTown_EventScript_Boy::
@@ -958,9 +998,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "Beep boop$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. BIRCH spends days in his LAB\n"

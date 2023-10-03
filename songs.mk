@@ -633,9 +633,6 @@ $(MID_SUBDIR)/mus_vs_rayquaza.s: %.s: %.mid
 $(MID_SUBDIR)/mus_encounter_hiker.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G097 -V076
 
-$(MID_SUBDIR)/mus_new_bark.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G051 -V100
-
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
 
@@ -1266,14 +1263,17 @@ $(MID_SUBDIR)/se_m_leer.s: %.s: %.mid
 $(MID_SUBDIR)/se_dex_search.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -v100 -P5
 
+$(MID_SUBDIR)/mus_new_bark.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V060
+
 $(MID_SUBDIR)/mus_route29.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G011 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_elms_lab.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G033 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_cherrygrove.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G019 -V070
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_route30.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G021 -V088
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
