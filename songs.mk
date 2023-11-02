@@ -1277,3 +1277,9 @@ $(MID_SUBDIR)/mus_cherrygrove.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_route30.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_violet.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_johto_pokecenter.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V100

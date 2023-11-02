@@ -27,21 +27,21 @@
       "x": 9,
       "y": 39,
       "elevation": 0,
-      "dest_map": "MAP_CIANWOOD_CITY",
+      "dest_map": "MAP_CIANWOOD_CITY_PHOTO_STUDIO",
       "dest_warp_id": 0
     },
     {
       "x": 18,
       "y": 46,
       "elevation": 0,
-      "dest_map": "MAP_CIANWOOD_CITY",
+      "dest_map": "MAP_CIANWOOD_CITY_HOUSE1",
       "dest_warp_id": 0
     },
     {
       "x": 23,
       "y": 52,
       "elevation": 0,
-      "dest_map": "MAP_CIANWOOD_CITY",
+      "dest_map": "MAP_CIANWOOD_CITY_HOUSE2",
       "dest_warp_id": 0
     },
     {
@@ -62,7 +62,7 @@
       "x": 21,
       "y": 60,
       "elevation": 0,
-      "dest_map": "MAP_CIANWOOD_CITY",
+      "dest_map": "MAP_CIANWOOD_CITY_KIRKS_HOUSE",
       "dest_warp_id": 0
     }
   ],

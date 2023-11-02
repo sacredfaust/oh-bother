@@ -616,6 +616,8 @@ gSongTable::
 	song mus_elms_lab, 0, 0
 	song mus_cherrygrove, 0, 0
 	song mus_route30, 0, 0
+	song mus_violet, 0, 0
+	song mus_johto_pokecenter, 0, 0
 
 	.align 2
 dummy_song_header:
