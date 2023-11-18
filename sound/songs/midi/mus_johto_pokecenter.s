@@ -183,7 +183,8 @@ mus_johto_pokecenter_1_002:
 	.byte		PAN   , c_v+0
 	.byte	W03
 @ 016   ----------------------------------------
-	.byte	W01
+	.byte	GOTO
+	 .word	mus_johto_pokecenter_1
 	.byte	FINE
 
 @**************** Track 2 (Midi-Chn.3) ****************@
@@ -440,7 +441,8 @@ mus_johto_pokecenter_2:
 	.byte		N44   , An3 , v104, gtp3
 	.byte	W48
 @ 016   ----------------------------------------
-	.byte	W01
+	.byte	GOTO
+	 .word	mus_johto_pokecenter_2
 	.byte	FINE
 
 @**************** Track 3 (Midi-Chn.5) ****************@
@@ -448,7 +450,7 @@ mus_johto_pokecenter_2:
 mus_johto_pokecenter_3:
 	.byte	KEYSH , mus_johto_pokecenter_key+0
 @ 000   ----------------------------------------
-	.byte		VOICE , 10
+	.byte		VOICE , 64
 	.byte		VOL   , 75*mus_johto_pokecenter_mvl/mxv
 	.byte		PAN   , c_v-44
 	.byte	W96
@@ -555,7 +557,8 @@ mus_johto_pokecenter_3:
 @ 015   ----------------------------------------
 	.byte	W96
 @ 016   ----------------------------------------
-	.byte	W01
+	.byte	GOTO
+	 .word	mus_johto_pokecenter_3
 	.byte	FINE
 
 @**************** Track 4 (Midi-Chn.6) ****************@
@@ -721,7 +724,8 @@ mus_johto_pokecenter_4:
 	.byte	W05
 	.byte	W01
 @ 016   ----------------------------------------
-	.byte	W01
+	.byte	GOTO
+	 .word	mus_johto_pokecenter_4
 	.byte	FINE
 
 @******************************************************@
