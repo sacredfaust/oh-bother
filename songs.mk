@@ -1264,10 +1264,10 @@ $(MID_SUBDIR)/se_dex_search.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -v100 -P5
 
 $(MID_SUBDIR)/mus_new_bark.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V060
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_route29.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V070
 
 $(MID_SUBDIR)/mus_elms_lab.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
@@ -1277,3 +1277,9 @@ $(MID_SUBDIR)/mus_cherrygrove.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_route30.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_violet.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_johto_pokecenter.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V100

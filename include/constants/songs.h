@@ -547,6 +547,8 @@
 #define MUS_ELMS_LAB                612 // MUS_ODAMAKI
 #define MUS_CHERRYGROVE             613 // MUS_MACHI_S4
 #define MUS_ROUTE30                 614 // MUS_DOORO_X4
+#define MUS_VIOLET                  615
+#define MUS_JOHTO_POKECENTER        616
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
