@@ -618,6 +618,8 @@ gSongTable::
 	song mus_route30, 0, 0
 	song mus_violet, 0, 0
 	song mus_johto_pokecenter, 0, 0
+	song mus_johto_pokemart, 0, 0
+	song mus_johto_gym, 0, 0
 
 	.align 2
 dummy_song_header:

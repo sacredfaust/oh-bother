@@ -1283,3 +1283,9 @@ $(MID_SUBDIR)/mus_violet.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_johto_pokecenter.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V100
+
+$(MID_SUBDIR)/mus_johto_pokemart.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V045
+
+$(MID_SUBDIR)/mus_johto_gym.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V070
