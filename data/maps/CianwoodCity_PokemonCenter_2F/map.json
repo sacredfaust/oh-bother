@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_CITY_POKEMON_CENTER_2F",
   "name": "CianwoodCity_PokemonCenter_2F",
   "layout": "LAYOUT_CIANWOOD_CITY_POKEMON_CENTER_2F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_JOHTO_POKECENTER",
   "region_map_section": "MAPSEC_CIANWOOD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
