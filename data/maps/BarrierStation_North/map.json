@@ -2,7 +2,7 @@
   "id": "MAP_BARRIER_STATION_NORTH",
   "name": "BarrierStation_North",
   "layout": "LAYOUT_BARRIER_STATION_NORTH",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_ECRUTEAK_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

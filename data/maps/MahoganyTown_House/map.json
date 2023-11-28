@@ -2,7 +2,7 @@
   "id": "MAP_MAHOGANY_TOWN_HOUSE",
   "name": "MahoganyTown_House",
   "layout": "LAYOUT_MAHOGANY_TOWN_HOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_CHERRYGROVE",
   "region_map_section": "MAPSEC_MAHOGANY_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

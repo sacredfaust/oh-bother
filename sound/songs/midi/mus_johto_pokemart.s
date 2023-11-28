@@ -2,8 +2,8 @@
 
 	.equ	mus_johto_pokemart_grp, voicegroup191
 	.equ	mus_johto_pokemart_pri, 0
-	.equ	mus_johto_pokemart_rev, reverb_set+20
-	.equ	mus_johto_pokemart_mvl, 45
+	.equ	mus_johto_pokemart_rev, reverb_set+50
+	.equ	mus_johto_pokemart_mvl, 55
 	.equ	mus_johto_pokemart_key, 0
 	.equ	mus_johto_pokemart_tbs, 1
 	.equ	mus_johto_pokemart_exg, 1
@@ -276,7 +276,6 @@ mus_johto_pokemart_1_B1:
 	.byte	W96
 @ 029   ----------------------------------------
 	.byte	W96
-@ 030   ----------------------------------------
 	.byte	GOTO
 	 .word	mus_johto_pokemart_1_B1
 	.byte	FINE
@@ -591,7 +590,6 @@ mus_johto_pokemart_2_024:
 	.byte		N32   , En3 , v096, gtp3
 	.byte		N32   , Fs3 , v108, gtp3
 	.byte	W60
-@ 030   ----------------------------------------
 	.byte	GOTO
 	 .word	mus_johto_pokemart_2_B1
 	.byte	FINE
@@ -846,7 +844,6 @@ mus_johto_pokemart_3_020:
 	.byte	W24
 	.byte		N40   , Fs1 , v120, gtp1
 	.byte	W60
-@ 030   ----------------------------------------
 	.byte	GOTO
 	 .word	mus_johto_pokemart_3_B1
 	.byte	FINE
@@ -862,8 +859,8 @@ mus_johto_pokemart_4:
 	.byte		MOD   , 0
 	.byte	W96
 @ 001   ----------------------------------------
-	.byte	W24
 	.byte	W36
+	.byte	W24
 mus_johto_pokemart_4_B1:
 	.byte	W36
 @ 002   ----------------------------------------
@@ -1216,214 +1213,13 @@ mus_johto_pokemart_4_B1:
 	.byte	W06
 	.byte	W12
 	.byte	W06
-@ 030   ----------------------------------------
 	.byte	GOTO
 	 .word	mus_johto_pokemart_4_B1
 	.byte	FINE
 
-@**************** Track 5 (Midi-Chn.6) ****************@
+@**************** Track 5 (Midi-Chn.7) ****************@
 
 mus_johto_pokemart_5:
-	.byte	KEYSH , mus_johto_pokemart_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 5
-	.byte		VOL   , 115*mus_johto_pokemart_mvl/mxv
-	.byte		PAN   , c_v+0
-	.byte		MOD   , 0
-	.byte	W96
-@ 001   ----------------------------------------
-	.byte	W24
-	.byte	W36
-mus_johto_pokemart_5_B1:
-	.byte	W36
-@ 002   ----------------------------------------
-	.byte	W96
-@ 003   ----------------------------------------
-	.byte	W96
-@ 004   ----------------------------------------
-	.byte	W96
-@ 005   ----------------------------------------
-	.byte	W96
-@ 006   ----------------------------------------
-	.byte	W96
-@ 007   ----------------------------------------
-	.byte	W96
-@ 008   ----------------------------------------
-	.byte	W96
-@ 009   ----------------------------------------
-	.byte	W96
-@ 010   ----------------------------------------
-	.byte	W96
-@ 011   ----------------------------------------
-	.byte	W96
-@ 012   ----------------------------------------
-	.byte	W96
-@ 013   ----------------------------------------
-	.byte	W96
-@ 014   ----------------------------------------
-	.byte	W96
-@ 015   ----------------------------------------
-	.byte	W96
-@ 016   ----------------------------------------
-	.byte	W96
-@ 017   ----------------------------------------
-	.byte	W72
-	.byte		N11   , Bn3 , v116
-	.byte	W12
-	.byte		N05   , Cs4 , v112
-	.byte	W12
-@ 018   ----------------------------------------
-	.byte		N11   , Ds4 , v120
-	.byte	W24
-	.byte		        Ds4 , v116
-	.byte	W24
-	.byte		        Ds4 , v120
-	.byte	W12
-	.byte		        Dn4 , v112
-	.byte	W12
-	.byte		N05   , Ds4 , v120
-	.byte	W09
-	.byte		N02   , Gs4 , v084
-	.byte	W03
-	.byte		N32   , As4 , v116, gtp3
-	.byte	W12
-@ 019   ----------------------------------------
-	.byte	W24
-	.byte		N05   , Gn4 
-	.byte	W24
-	.byte		        Ds4 , v112
-	.byte	W24
-	.byte		        Cs4 , v116
-	.byte	W24
-@ 020   ----------------------------------------
-	.byte		N17   
-	.byte	W18
-	.byte		N02   , Cs4 , v096
-	.byte	W03
-	.byte		        Dn4 , v104
-	.byte	W03
-	.byte		N05   , Ds4 , v116
-	.byte	W12
-	.byte		N23   , Bn3 
-	.byte	W24
-	.byte		N11   , As3 , v108
-	.byte	W12
-	.byte		        Bn3 , v112
-	.byte	W12
-	.byte		N28   , Cs4 , v120, gtp1
-	.byte	W12
-@ 021   ----------------------------------------
-	.byte	W24
-	.byte		N11   , Ds4 , v112
-	.byte	W12
-	.byte		N23   , Gs4 , v120
-	.byte	W36
-	.byte		N11   , Bn3 , v116
-	.byte	W12
-	.byte		N05   , Cs4 , v108
-	.byte	W12
-@ 022   ----------------------------------------
-	.byte		N11   , Ds4 , v120
-	.byte	W24
-	.byte		        Ds4 , v112
-	.byte	W24
-	.byte		        Ds4 , v116
-	.byte	W12
-	.byte		        Dn4 , v112
-	.byte	W12
-	.byte		N05   , Ds4 , v116
-	.byte	W09
-	.byte		N02   , Gs4 , v104
-	.byte	W03
-	.byte		N32   , As4 , v116, gtp3
-	.byte	W12
-@ 023   ----------------------------------------
-	.byte	W24
-	.byte		N05   , Gn4 
-	.byte	W06
-	.byte		        Fs4 , v104
-	.byte	W06
-	.byte		        Gn4 , v116
-	.byte	W12
-	.byte		        Gs4 
-	.byte	W06
-	.byte		        Gn4 , v104
-	.byte	W06
-	.byte		        Gs4 , v116
-	.byte	W12
-	.byte		        As4 
-	.byte	W06
-	.byte		        An4 , v104
-	.byte	W06
-	.byte		        As4 , v116
-	.byte	W12
-@ 024   ----------------------------------------
-	.byte		N17   
-	.byte	W24
-	.byte		N05   , Bn4 , v112
-	.byte	W12
-	.byte		N23   , Gs4 , v120
-	.byte	W24
-	.byte		N11   , Gn4 , v116
-	.byte	W12
-	.byte		        Gs4 , v112
-	.byte	W12
-	.byte		N28   , As4 , v120, gtp1
-	.byte	W12
-@ 025   ----------------------------------------
-	.byte	W24
-	.byte		N05   , Bn4 , v112
-	.byte	W12
-	.byte		N17   , Gs4 , v116
-	.byte	W21
-	.byte		N02   , Cn5 , v104
-	.byte	W03
-	.byte		N11   , Cs5 , v116
-	.byte	W12
-	.byte		N05   , Bn4 , v112
-	.byte	W12
-	.byte		        As4 , v116
-	.byte	W12
-@ 026   ----------------------------------------
-	.byte		N76   , Bn4 , v120, gtp1
-	.byte	W90
-	.byte		N02   , Gs4 , v104
-	.byte	W03
-	.byte		        As4 , v116
-	.byte	W03
-@ 027   ----------------------------------------
-	.byte		N56   , Bn4 , v112, gtp3
-	.byte	W60
-	.byte		N11   , Gs4 , v116
-	.byte	W12
-	.byte		N03   , As4 , v112
-	.byte	W12
-	.byte		        Bn4 , v108
-	.byte	W12
-@ 028   ----------------------------------------
-	.byte		N56   , As4 , v116, gtp3
-	.byte	W60
-	.byte		N11   , Gs4 
-	.byte	W12
-	.byte		        As4 , v112
-	.byte	W12
-	.byte		N02   , Gs4 , v104
-	.byte	W12
-@ 029   ----------------------------------------
-	.byte		N05   , As4 , v116
-	.byte	W12
-	.byte		        Gs4 , v112
-	.byte	W24
-	.byte		N56   , Fs4 , v116, gtp3
-	.byte	W60
-@ 030   ----------------------------------------
-	.byte	GOTO
-	 .word	mus_johto_pokemart_5_B1
-	.byte	FINE
-
-@**************** Track 6 (Midi-Chn.7) ****************@
-
-mus_johto_pokemart_6:
 	.byte	KEYSH , mus_johto_pokemart_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 26
@@ -1444,10 +1240,10 @@ mus_johto_pokemart_6:
 	.byte	W24
 	.byte		        Fs3 , v100
 	.byte	W36
-mus_johto_pokemart_6_B1:
+mus_johto_pokemart_5_B1:
 	.byte	W36
 @ 002   ----------------------------------------
-mus_johto_pokemart_6_002:
+mus_johto_pokemart_5_002:
 	.byte	W12
 	.byte		N08   , Fs3 , v100
 	.byte	W12
@@ -1468,7 +1264,7 @@ mus_johto_pokemart_6_002:
 	.byte	W36
 @ 004   ----------------------------------------
 	.byte	PATT
-	 .word	mus_johto_pokemart_6_002
+	 .word	mus_johto_pokemart_5_002
 @ 005   ----------------------------------------
 	.byte	W12
 	.byte		N08   , An3 , v100
@@ -1566,175 +1362,15 @@ mus_johto_pokemart_6_002:
 	.byte	W96
 @ 029   ----------------------------------------
 	.byte	W96
-@ 030   ----------------------------------------
 	.byte	GOTO
-	 .word	mus_johto_pokemart_6_B1
-	.byte	FINE
-
-@**************** Track 7 (Midi-Chn.9) ****************@
-
-mus_johto_pokemart_7:
-	.byte	KEYSH , mus_johto_pokemart_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 35
-	.byte		VOL   , 45*mus_johto_pokemart_mvl/mxv
-	.byte		PAN   , c_v+56
-	.byte		MOD   , 0
-	.byte	W96
-@ 001   ----------------------------------------
-	.byte	W24
-	.byte	W36
-mus_johto_pokemart_7_B1:
-	.byte	W12
-	.byte		N11   , Fs4 , v108
-	.byte	W12
-	.byte		N05   , Gs4 , v096
-	.byte	W12
-@ 002   ----------------------------------------
-	.byte		        As4 , v104
-	.byte	W12
-	.byte		N17   , Cs5 , v108
-	.byte	W18
-	.byte		N03   , Fs4 , v088
-	.byte	W06
-	.byte		N05   , Ds5 , v084
-	.byte	W12
-	.byte		N28   , Bn4 , v104, gtp1
-	.byte	W48
-@ 003   ----------------------------------------
-	.byte		N05   , Bn4 , v108
-	.byte	W06
-	.byte		        Cs5 , v104
-	.byte	W06
-	.byte		N11   , Ds5 
-	.byte	W12
-	.byte		N05   , Dn5 
-	.byte	W12
-	.byte		        Ds5 
-	.byte	W12
-	.byte		N23   , En5 
-	.byte	W36
-	.byte		N05   , Ds5 
-	.byte		N05   , Ds5 , v088
-	.byte	W06
-	.byte		        En5 , v108
-	.byte	W06
-@ 004   ----------------------------------------
-	.byte		        Fs5 
-	.byte	W12
-	.byte		N17   , Cs5 , v096
-	.byte	W18
-	.byte		N03   , Fs4 
-	.byte	W06
-	.byte		N05   , Ds5 , v104
-	.byte	W12
-	.byte		N28   , Bn4 , v088, gtp1
-	.byte	W48
-@ 005   ----------------------------------------
-	.byte		N05   , Bn4 , v100
-	.byte	W06
-	.byte		        Cs5 , v092
-	.byte	W06
-	.byte		N11   , Ds5 , v104
-	.byte	W12
-	.byte		N05   , Dn5 , v100
-	.byte	W12
-	.byte		        Ds5 , v104
-	.byte	W12
-	.byte		N23   , Gs5 
-	.byte	W36
-	.byte		N05   , En5 , v088
-	.byte	W06
-	.byte		        Ds5 , v108
-	.byte	W06
-@ 006   ----------------------------------------
-	.byte		        Cs5 
-	.byte	W12
-	.byte		N17   , Ds5 , v104
-	.byte	W18
-	.byte		N05   , Gs4 , v100
-	.byte	W06
-	.byte		        En5 
-	.byte	W12
-	.byte		N32   , Cs5 , v100, gtp3
-	.byte	W48
-@ 007   ----------------------------------------
-	.byte	W24
-	.byte		N28   , Gs4 , v108, gtp1
-	.byte	W36
-	.byte		N05   , As4 , v112
-	.byte	W24
-	.byte		        Bn4 
-	.byte	W12
-@ 008   ----------------------------------------
-	.byte	W12
-	.byte		N32   , Ds5 , v108, gtp3
-	.byte	W36
-	.byte		N05   , En5 , v104
-	.byte	W06
-	.byte		        Ds5 , v096
-	.byte	W06
-	.byte		        Cs5 , v104
-	.byte	W12
-	.byte		N11   , Bn4 
-	.byte	W12
-	.byte		        As4 
-	.byte	W12
-@ 009   ----------------------------------------
-	.byte		        Bn4 
-	.byte	W12
-	.byte		        Cs5 
-	.byte	W84
-@ 010   ----------------------------------------
-	.byte	W96
-@ 011   ----------------------------------------
-	.byte	W96
-@ 012   ----------------------------------------
-	.byte	W96
-@ 013   ----------------------------------------
-	.byte	W96
-@ 014   ----------------------------------------
-	.byte	W96
-@ 015   ----------------------------------------
-	.byte	W96
-@ 016   ----------------------------------------
-	.byte	W96
-@ 017   ----------------------------------------
-	.byte	W96
-@ 018   ----------------------------------------
-	.byte	W96
-@ 019   ----------------------------------------
-	.byte	W96
-@ 020   ----------------------------------------
-	.byte	W96
-@ 021   ----------------------------------------
-	.byte	W96
-@ 022   ----------------------------------------
-	.byte	W96
-@ 023   ----------------------------------------
-	.byte	W96
-@ 024   ----------------------------------------
-	.byte	W96
-@ 025   ----------------------------------------
-	.byte	W96
-@ 026   ----------------------------------------
-	.byte	W96
-@ 027   ----------------------------------------
-	.byte	W96
-@ 028   ----------------------------------------
-	.byte	W96
-@ 029   ----------------------------------------
-	.byte	W96
-@ 030   ----------------------------------------
-	.byte	GOTO
-	 .word	mus_johto_pokemart_7_B1
+	 .word	mus_johto_pokemart_5_B1
 	.byte	FINE
 
 @******************************************************@
 	.align	2
 
 mus_johto_pokemart:
-	.byte	7	@ NumTrks
+	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
 	.byte	mus_johto_pokemart_pri	@ Priority
 	.byte	mus_johto_pokemart_rev	@ Reverb.
@@ -1746,7 +1382,5 @@ mus_johto_pokemart:
 	.word	mus_johto_pokemart_3
 	.word	mus_johto_pokemart_4
 	.word	mus_johto_pokemart_5
-	.word	mus_johto_pokemart_6
-	.word	mus_johto_pokemart_7
 
 	.end

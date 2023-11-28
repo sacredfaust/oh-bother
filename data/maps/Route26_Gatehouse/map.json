@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE26_GATEHOUSE",
   "name": "Route26_Gatehouse",
   "layout": "LAYOUT_ROUTE26_GATEHOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_VICTORY_ROAD",
   "region_map_section": "MAPSEC_ROUTE_26",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

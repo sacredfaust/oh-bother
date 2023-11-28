@@ -2,7 +2,7 @@
   "id": "MAP_MOO_MOO_FARM",
   "name": "MooMooFarm",
   "layout": "LAYOUT_MOO_MOO_FARM",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_ROUTE_39",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

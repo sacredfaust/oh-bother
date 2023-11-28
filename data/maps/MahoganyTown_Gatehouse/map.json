@@ -2,7 +2,7 @@
   "id": "MAP_MAHOGANY_TOWN_GATEHOUSE",
   "name": "MahoganyTown_Gatehouse",
   "layout": "LAYOUT_MAHOGANY_TOWN_GATEHOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_LAKE_OF_RAGE",
   "region_map_section": "MAPSEC_MAHOGANY_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

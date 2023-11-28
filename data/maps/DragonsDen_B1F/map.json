@@ -2,7 +2,7 @@
   "id": "MAP_DRAGONS_DEN_B1F",
   "name": "DragonsDen_B1F",
   "layout": "LAYOUT_DRAGONS_DEN_B1F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_DRAGONS_DEN",
   "region_map_section": "MAPSEC_DRAGONS_DEN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

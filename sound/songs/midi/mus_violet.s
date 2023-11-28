@@ -797,7 +797,7 @@ mus_violet_6:
 	.byte	KEYSH , mus_violet_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 33
-	.byte		VOL   , 116*mus_violet_mvl/mxv
+	.byte		VOL   , 90*mus_violet_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		MOD   , 0
 	.byte		BEND  , c_v+15
@@ -870,7 +870,7 @@ mus_violet_7:
 	.byte	KEYSH , mus_violet_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 33
-	.byte		VOL   , 118*mus_violet_mvl/mxv
+	.byte		VOL   , 60*mus_violet_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		MOD   , 0
 	.byte	W96

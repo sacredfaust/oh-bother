@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_CITY_HOUSE4",
   "name": "EcruteakCity_House4",
   "layout": "LAYOUT_ECRUTEAK_CITY_HOUSE4",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_ECRUTEAK_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

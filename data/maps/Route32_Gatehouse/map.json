@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE32_GATEHOUSE",
   "name": "Route32_Gatehouse",
   "layout": "LAYOUT_ROUTE32_GATEHOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE30",
   "region_map_section": "MAPSEC_ROUTE_32",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

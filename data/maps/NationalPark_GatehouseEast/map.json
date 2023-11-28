@@ -2,7 +2,7 @@
   "id": "MAP_NATIONAL_PARK_GATEHOUSE_EAST",
   "name": "NationalPark_GatehouseEast",
   "layout": "LAYOUT_NATIONAL_PARK_GATEHOUSE_EAST",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GOLDENROD",
   "region_map_section": "MAPSEC_NATIONAL_PARK",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
