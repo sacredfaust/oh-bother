@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_CITY_GATEHOUSE_EAST",
   "name": "EcruteakCity_GatehouseEast",
   "layout": "LAYOUT_ECRUTEAK_CITY_GATEHOUSE_EAST",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_LAKE_OF_RAGE",
   "region_map_section": "MAPSEC_ECRUTEAK_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE43_GATEHOUSE",
   "name": "Route43_Gatehouse",
   "layout": "LAYOUT_ROUTE43_GATEHOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_LAKE_OF_RAGE",
   "region_map_section": "MAPSEC_ROUTE_43",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

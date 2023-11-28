@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_CITY_UNDERGROUND_NORTH_ENTRANCE",
   "name": "GoldenrodCity_Underground_NorthEntrance",
   "layout": "LAYOUT_GOLDENROD_CITY_UNDERGROUND_NORTH_ENTRANCE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GOLDENROD",
   "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

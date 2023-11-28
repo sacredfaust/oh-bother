@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_CITY_PHOTO_STUDIO",
   "name": "CianwoodCity_PhotoStudio",
   "layout": "LAYOUT_CIANWOOD_CITY_PHOTO_STUDIO",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ECRUTEAK",
   "region_map_section": "MAPSEC_CIANWOOD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

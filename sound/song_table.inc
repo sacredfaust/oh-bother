@@ -618,6 +618,27 @@ gSongTable::
 	song mus_route30, 0, 0
 	song mus_violet, 0, 0
 	song mus_johto_pokecenter, 0, 0
+	song mus_johto_pokemart, 0, 0
+	song mus_johto_gym, 0, 0
+	song mus_union_cave, 0, 0
+	song mus_ruins_of_alph, 0, 0
+	song mus_sprout_tower, 0, 0
+	song mus_azalea, 0, 0
+	song mus_dark_cave, 0, 0
+	song mus_route36, 0, 0
+	song mus_goldenrod, 0, 0
+	song mus_johto_gamecorner, 0, 0
+	song mus_national_park, 0, 0
+	song mus_route38, 0, 0
+	song mus_ecruteak, 0, 0
+	song mus_dance_theater, 0, 0
+	song mus_burned_tower, 0, 0
+	song mus_tin_tower, 0, 0
+	song mus_battle_tower, 0, 0
+	song mus_lake_of_rage, 0, 0
+	song mus_johto_rocket, 0, 0
+	song mus_dragons_den, 0, 0
+	song mus_route26, 0, 0
 
 	.align 2
 dummy_song_header:

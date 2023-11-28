@@ -2,7 +2,7 @@
   "id": "MAP_WHIRL_ISLANDS_NORTH_EAST_ENTRANCE",
   "name": "WhirlIslands_NorthEastEntrance",
   "layout": "LAYOUT_WHIRL_ISLANDS_NORTH_EAST_ENTRANCE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_UNION_CAVE",
   "region_map_section": "MAPSEC_WHIRL_ISLANDS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

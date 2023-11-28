@@ -2,7 +2,7 @@
   "id": "MAP_WHIRL_ISLANDS_B7F",
   "name": "WhirlIslands_B7F",
   "layout": "LAYOUT_WHIRL_ISLANDS_B7F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_UNION_CAVE",
   "region_map_section": "MAPSEC_WHIRL_ISLANDS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

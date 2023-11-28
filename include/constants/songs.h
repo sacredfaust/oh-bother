@@ -549,6 +549,27 @@
 #define MUS_ROUTE30                 614 // MUS_DOORO_X4
 #define MUS_VIOLET                  615
 #define MUS_JOHTO_POKECENTER        616
+#define MUS_JOHTO_POKEMART          617
+#define MUS_JOHTO_GYM               618
+#define MUS_UNION_CAVE              619
+#define MUS_RUINS_OF_ALPH           620
+#define MUS_SPROUT_TOWER            621
+#define MUS_AZALEA                  622
+#define MUS_DARK_CAVE               623
+#define MUS_ROUTE36                 624
+#define MUS_GOLDENROD               625
+#define MUS_JOHTO_GAMECORNER        626
+#define MUS_NATIONAL_PARK           627
+#define MUS_ROUTE38                 628
+#define MUS_ECRUTEAK                629
+#define MUS_DANCE_THEATER           630
+#define MUS_BURNED_TOWER            631
+#define MUS_TIN_TOWER               632
+#define MUS_BATTLE_TOWER            633
+#define MUS_LAKE_OF_RAGE            634
+#define MUS_JOHTO_ROCKET            635
+#define MUS_DRAGONS_DEN             636
+#define MUS_ROUTE26                 637
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

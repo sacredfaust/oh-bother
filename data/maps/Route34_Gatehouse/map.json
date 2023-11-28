@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE34_GATEHOUSE",
   "name": "Route34_Gatehouse",
   "layout": "LAYOUT_ROUTE34_GATEHOUSE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE36",
   "region_map_section": "MAPSEC_ILEX_FOREST",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
