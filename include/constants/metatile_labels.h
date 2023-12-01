@@ -910,4 +910,38 @@
 // gTileset_ZooBuilding
 #define METATILE_ZooBuilding_Door  0x2BE
 
+// gTileset_NewBarkTown
+#define METATILE_NewBarkTown_Door    0x30A
+#define METATILE_ElmsLab_Door        0x30B
+#define METATILE_NewBarkTown_2_Door  0x30D
+#define METATILE_CherryGrove_Door    0x30E
+
+// gTileset_VioletCity
+#define METATILE_VioletCity_Door     0x298
+#define METATILE_Sprout_Tower_Door   0x294
+#define METATILE_Ruins_Of_Alph_Door  0x323
+
+// gTileset_AzaleaTown
+#define METATILE_Azalea_Door    0x29B
+
+// gTileset_GoldenrodCity
+#define METATILE_Goldenrod_Door                 0x284
+#define METATILE_Goldenrod2_Door                0x3F4
+#define METATILE_Goldenrod3_Door                0x3FD
+#define METATILE_Goldenrod_Radio_Tower_Door     0x2BC
+#define METATILE_Goldenrod_Train_Station_Door   0x3FF
+#define METATILE_Goldenrod_Game_Corner_Door     0x33E
+#define METATILE_Goldenrod_Pokecenter_Door      0x3C3
+#define METATILE_Goldenrod_Dpt_Store_Door       0x35C
+#define METATILE_Goldenrod_Bike_Shop_Door       0x31F
+
+// gTileset_EcruteakCity
+#define METATILE_EcruteakCity_Door   0x29C
+
+// gTileset_MahoganyTown
+#define METATILE_MahoganyTown_Door   0x33F
+
+// gTileset_BlackthornCity
+#define METATILE_BlackthornCity_Door   0x33C
+
 #endif // GUARD_METATILE_LABELS_H

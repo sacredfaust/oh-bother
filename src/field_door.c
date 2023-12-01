@@ -172,6 +172,21 @@ static const u8 sDoorAnimTiles_Sevii2_Sliding[] = INCBIN_U8("graphics/door_anims
 static const u8 sDoorAnimTiles_Sevii5_RocketWarehouse[] = INCBIN_U8("graphics/door_anims/sevii5_rocketwarehouse.4bpp");
 static const u8 sDoorAnimTiles_Sevii7_TrainerTower_Elevator1[] = INCBIN_U8("graphics/door_anims/sevii7_trainertower_elevator1.4bpp");
 static const u8 sDoorAnimTiles_Sevii7_TrainerTower_Elevator2[] = INCBIN_U8("graphics/door_anims/sevii7_trainertower_elevator2.4bpp");
+static const u8 sDoorAnimTiles_NewBarkTown[] = INCBIN_U8("graphics/door_anims/newbarktown.4bpp");
+static const u8 sDoorAnimTiles_NewBarkTown_2[] = INCBIN_U8("graphics/door_anims/newbarktown_2.4bpp");
+static const u8 sDoorAnimTiles_ElmsLab[] = INCBIN_U8("graphics/door_anims/elms_lab.4bpp");
+static const u8 sDoorAnimTiles_Cherrygrove[] = INCBIN_U8("graphics/door_anims/cherrygrove.4bpp");
+static const u8 sDoorAnimTiles_Sprout_Tower[] = INCBIN_U8("graphics/door_anims/sprout_tower.4bpp");
+static const u8 sDoorAnimTiles_Azalea[] = INCBIN_U8("graphics/door_anims/azalea.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod[] = INCBIN_U8("graphics/door_anims/goldenrod.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod2[] = INCBIN_U8("graphics/door_anims/goldenrod2.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod3[] = INCBIN_U8("graphics/door_anims/goldenrod3.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod_Radio_Tower[] = INCBIN_U8("graphics/door_anims/goldenrod_radio_tower.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod_Train_Station[] = INCBIN_U8("graphics/door_anims/goldenrod_train_station.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod_Pokecenter[] = INCBIN_U8("graphics/door_anims/goldenrod_pokecenter.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod_Dpt_Store[] = INCBIN_U8("graphics/door_anims/goldenrod_dpt_store.4bpp");
+static const u8 sDoorAnimTiles_Goldenrod_Bike_Shop[] = INCBIN_U8("graphics/door_anims/goldenrod_bike_shop.4bpp");
+static const u8 sDoorAnimTiles_Blackthorn[] = INCBIN_U8("graphics/door_anims/blackthorn.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -301,6 +316,26 @@ static const u8 sDoorAnimPalettes_Sevii2_Sliding[] = {9, 9, 9, 9, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Sevii5_RocketWarehouse[] = {10, 10, 10, 10, 10, 10, 10, 10};
 static const u8 sDoorAnimPalettes_Sevii7_TrainerTower_Elevator1[] = {8, 8, 2, 2, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_Sevii7_TrainerTower_Elevator2[] = {11, 11, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_NewBarkTown[] = {10, 10, 10, 10, 12, 12, 12, 12};
+static const u8 sDoorAnimPalettes_NewBarkTown_2[] = {7, 7, 10, 10, 12, 12, 12, 12};
+static const u8 sDoorAnimPalettes_ElmsLab[] = {8, 8, 8, 8, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_Cherrygrove[] = {2, 2, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_Violet[] = {12, 12, 12, 12, 12, 12, 12, 12};
+static const u8 sDoorAnimPalettes_Sprout_Tower[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_Azalea[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_Goldenrod[] = {12, 12, 12, 12, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Goldenrod2[] = {12, 12, 12, 12, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Goldenrod3[] = {5, 5, 5, 5, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_Goldenrod_Radio_Tower[] = {9, 9, 9, 9, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Goldenrod_Train_Station[] = {11, 11, 10, 10, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Goldenrod_Game_Corner[] = {8, 8, 8, 8, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Goldenrod_Pokecenter[] = {10, 10, 10, 10, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Goldenrod_Dpt_Store[] = {8, 8, 11, 11, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Goldenrod_Bike_Shop[] = {11, 11, 11, 11, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Ruins_Of_Alph[] = {2, 2, 8, 8, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_Ecruteak[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Mahogany[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Blackthorn[] = {9, 9, 9, 9, 9, 9, 9, 9};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -401,6 +436,26 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_Sevii5_RocketWarehouse_Door,                  DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii5_RocketWarehouse, sDoorAnimPalettes_Sevii5_RocketWarehouse},
     {METATILE_Sevii7_TrainerTower_Elevator1,                DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii7_TrainerTower_Elevator1, sDoorAnimPalettes_Sevii7_TrainerTower_Elevator1},
     {METATILE_Sevii7_TrainerTower_Elevator2,                DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Sevii7_TrainerTower_Elevator2, sDoorAnimPalettes_Sevii7_TrainerTower_Elevator2},
+    {METATILE_NewBarkTown_Door,                             DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_NewBarkTown, sDoorAnimPalettes_NewBarkTown},
+    {METATILE_NewBarkTown_2_Door,                           DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_NewBarkTown_2, sDoorAnimPalettes_NewBarkTown_2},
+    {METATILE_ElmsLab_Door,                                 DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_ElmsLab, sDoorAnimPalettes_ElmsLab},
+    {METATILE_CherryGrove_Door,                             DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cherrygrove, sDoorAnimPalettes_Cherrygrove},
+    {METATILE_VioletCity_Door,                              DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cerulean, sDoorAnimPalettes_Violet},
+    {METATILE_Sprout_Tower_Door,                            DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Sprout_Tower, sDoorAnimPalettes_Sprout_Tower},
+    {METATILE_Azalea_Door,                                  DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Azalea, sDoorAnimPalettes_Azalea},
+    {METATILE_Goldenrod_Door,                               DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Goldenrod, sDoorAnimPalettes_Goldenrod},
+    {METATILE_Goldenrod2_Door,                              DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Goldenrod2, sDoorAnimPalettes_Goldenrod2},
+    {METATILE_Goldenrod3_Door,                              DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Goldenrod3, sDoorAnimPalettes_Goldenrod3},
+    {METATILE_Goldenrod_Radio_Tower_Door,                   DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Goldenrod_Radio_Tower, sDoorAnimPalettes_Goldenrod_Radio_Tower},
+    {METATILE_Goldenrod_Train_Station_Door,                 DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Goldenrod_Train_Station, sDoorAnimPalettes_Goldenrod_Train_Station},
+    {METATILE_Goldenrod_Game_Corner_Door,                   DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Celadon_GameCorner, sDoorAnimPalettes_Goldenrod_Game_Corner},
+    {METATILE_Goldenrod_Pokecenter_Door,                    DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Goldenrod_Pokecenter, sDoorAnimPalettes_Goldenrod_Pokecenter},
+    {METATILE_Goldenrod_Dpt_Store_Door,                     DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Goldenrod_Dpt_Store, sDoorAnimPalettes_Goldenrod_Dpt_Store},
+    {METATILE_Goldenrod_Bike_Shop_Door,                     DOOR_SOUND_SLIDING, 0, sDoorAnimTiles_Goldenrod_Bike_Shop, sDoorAnimPalettes_Goldenrod_Bike_Shop},
+    {METATILE_Ruins_Of_Alph_Door,                           DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cinnabar, sDoorAnimPalettes_Ruins_Of_Alph},
+    {METATILE_EcruteakCity_Door,                            DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cerulean, sDoorAnimPalettes_Ecruteak},
+    {METATILE_MahoganyTown_Door,                            DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Cerulean, sDoorAnimPalettes_Mahogany},
+    {METATILE_BlackthornCity_Door,                          DOOR_SOUND_NORMAL,  0, sDoorAnimTiles_Blackthorn, sDoorAnimPalettes_Blackthorn},
     {},
 };
 
