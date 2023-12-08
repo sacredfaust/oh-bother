@@ -1091,59 +1091,64 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Repel,
     },
 
-    [ITEM_057] =
+    [ITEM_EXP_CANDY_XS] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Exp.Candy XS"),
+        .itemId = ITEM_EXP_CANDY_XS,
+        .price = 20,
+        .holdEffectParam = EXP_100,
+        .description = sExpCandyXSDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
 
-    [ITEM_058] =
+    [ITEM_EXP_CANDY_S] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Exp.Candy S"),
+        .itemId = ITEM_EXP_CANDY_S,
+        .price = 240,
+        .holdEffectParam = EXP_800,
+        .description = sExpCandySDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
 
-    [ITEM_059] =
+    [ITEM_EXP_CANDY_M] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Exp.Candy M"),
+        .itemId = ITEM_EXP_CANDY_M,
+        .price = 1000,
+        .holdEffectParam = EXP_3000,
+        .description = sExpCandyMDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
 
-    [ITEM_05A] =
+    [ITEM_EXP_CANDY_L] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Exp.Candy L"),
+        .itemId = ITEM_EXP_CANDY_L,
+        .price = 3000,
+        .holdEffectParam = EXP_10000,
+        .description = sExpCandyLDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
 
-    [ITEM_05B] =
+    [ITEM_EXP_CANDY_XL] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Exp.Candy XL"),
+        .itemId = ITEM_EXP_CANDY_XL,
+        .price = 10000,
+        .holdEffectParam = EXP_30000,
+        .description = sExpCandyXLDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
     },
 
     [ITEM_05C] =

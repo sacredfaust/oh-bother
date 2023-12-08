@@ -97,11 +97,11 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_ESCAPE_ROPE] = {gItemIcon_EscapeRope, gItemIconPalette_EscapeRope},
     [ITEM_REPEL] = {gItemIcon_Repel, gItemIconPalette_Repel},
     // ????????
-    [ITEM_057] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_058] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_059] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_05A] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_05B] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_EXP_CANDY_XS] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
+    [ITEM_EXP_CANDY_S] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
+    [ITEM_EXP_CANDY_M] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
+    [ITEM_EXP_CANDY_L] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
+    [ITEM_EXP_CANDY_XL] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
     [ITEM_05C] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     // Evolution stones
     [ITEM_SUN_STONE] = {gItemIcon_SunStone, gItemIconPalette_SunStone},

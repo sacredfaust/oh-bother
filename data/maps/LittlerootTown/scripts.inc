@@ -285,6 +285,7 @@ LittlerootTown_EventScript_FatMan::
 	giveitem ITEM_HM06
 	giveitem ITEM_HM07
 	giveitem ITEM_HM08
+	giveitem ITEM_EXP_CANDY_L
 	waitfanfare
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
 	release
