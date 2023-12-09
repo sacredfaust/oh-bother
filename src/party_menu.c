@@ -4884,7 +4884,6 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     bool8 cannotUseEffect;
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
 
-
     if (sInitialLevel != MAX_LEVEL)
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
@@ -4905,8 +4904,8 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     }
     else
     {
+        sFinalLevel = GetMonData(mon, MON_DATA_LEVEL, NULL);
         gPartyMenuUseExitCallback = TRUE;
-        PlayFanfareByFanfareNum(FANFARE_LEVEL_UP);
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
         RemoveBagItem(gSpecialVar_ItemId, 1);
         GetMonNickname(mon, gStringVar1);
@@ -4991,7 +4990,7 @@ static void Task_TryLearnNewMoves(u8 taskId)
     if (WaitFanfare(0) && ((JOY_NEW(A_BUTTON)) || (JOY_NEW(B_BUTTON))))
     {
         RemoveLevelUpStatsWindow();
- for (; sInitialLevel <= sFinalLevel; sInitialLevel++)
+        for (; sInitialLevel <= sFinalLevel; sInitialLevel++)
         {
             SetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_LEVEL, &sInitialLevel);
             learnMove = MonTryLearningNewMove(&gPlayerParty[gPartyMenu.slotId], TRUE);
@@ -5028,7 +5027,6 @@ static void Task_TryLearningNextMove(u8 taskId)
         switch (result)
         {
         case 0: // No moves to learn
-            PartyMenuTryEvolution(taskId);
             break;
         case MON_HAS_MAX_MOVES:
             DisplayMonNeedsToReplaceMove(taskId);
@@ -5039,8 +5037,10 @@ static void Task_TryLearningNextMove(u8 taskId)
             DisplayMonLearnedMove(taskId, result);
             break;
         }
+        if (result)
+            break;
     }
-if (sInitialLevel >= sFinalLevel)
+    if (sInitialLevel >= sFinalLevel)
         PartyMenuTryEvolution(taskId); 
 }
 

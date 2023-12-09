@@ -274,7 +274,7 @@ LittlerootTown_EventScript_FatMan::
 	setflag FLAG_BADGE08_GET
 	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
 	setflag FLAG_IS_CHAMPION
-	givemon SPECIES_RAYQUAZA, 100, ITEM_NONE
+	givemon SPECIES_RAYQUAZA, 60, ITEM_NONE
 	givemon SPECIES_LATIOS, 100, ITEM_NONE
 	giveitem ITEM_MACH_BIKE
 	giveitem ITEM_HM01
@@ -285,7 +285,8 @@ LittlerootTown_EventScript_FatMan::
 	giveitem ITEM_HM06
 	giveitem ITEM_HM07
 	giveitem ITEM_HM08
-	giveitem ITEM_EXP_CANDY_L
+	giveitem ITEM_TM33
+	giveitem ITEM_EXP_CANDY_XL
 	waitfanfare
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
 	release
