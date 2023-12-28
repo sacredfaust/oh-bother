@@ -281,6 +281,27 @@ static const u8 sRareCandyDesc[] = _(
     "of a POKéMON by\n"
     "one.");
 
+static const u8 sExpCandyXSDesc[] = _(
+    "Grants a tiny\n"
+    "power boost.");
+
+static const u8 sExpCandySDesc[] = _(
+    "Grants a small\n"
+    "power boost.");
+
+static const u8 sExpCandyMDesc[] = _(
+    "Grants a mid\n"
+    "power boost.");    
+
+static const u8 sExpCandyLDesc[] = _(
+    "Grants a large\n"
+    "power boost.");    
+
+static const u8 sExpCandyXLDesc[] = _(
+    "Grants a super\n"
+    "power boost.");    
+
+
 static const u8 sPPUpDesc[] = _(
     "Raises the maximum\n"
     "PP of a selected\n"

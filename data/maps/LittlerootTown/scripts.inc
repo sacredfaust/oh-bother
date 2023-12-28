@@ -276,15 +276,13 @@ LittlerootTown_EventScript_FatMan::
 	setflag FLAG_IS_CHAMPION
 	givemon SPECIES_RAYQUAZA, 100, ITEM_NONE
 	givemon SPECIES_LATIOS, 100, ITEM_NONE
-	giveitem ITEM_MACH_BIKE
 	giveitem ITEM_HM01
-	giveitem ITEM_HM02
-	giveitem ITEM_HM03
-	giveitem ITEM_HM04
-	giveitem ITEM_HM05
-	giveitem ITEM_HM06
-	giveitem ITEM_HM07
-	giveitem ITEM_HM08
+	giveitem ITEM_EXP_CANDY_XS
+	giveitem ITEM_EXP_CANDY_S
+	giveitem ITEM_EXP_CANDY_M
+	giveitem ITEM_EXP_CANDY_L
+	giveitem ITEM_EXP_CANDY_XL
+	givecustommon SPECIES_ENTEI, 75, ITEM_CHOICE_BAND, ITEM_POKE_BALL, NATURE_TIMID, 1, 252, 0, 0, 0, 0, 252, 31, 31, 31, 31, 31, 0, MOVE_EARTHQUAKE, MOVE_CUT, MOVE_SURF, MOVE_AGILITY
 	waitfanfare
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
 	release

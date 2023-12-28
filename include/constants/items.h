@@ -98,11 +98,11 @@
 #define ITEM_MAX_REPEL 84
 #define ITEM_ESCAPE_ROPE 85
 #define ITEM_REPEL 86
-#define ITEM_057 87
-#define ITEM_058 88
-#define ITEM_059 89
-#define ITEM_05A 90
-#define ITEM_05B 91
+#define ITEM_EXP_CANDY_XS 87
+#define ITEM_EXP_CANDY_S 88
+#define ITEM_EXP_CANDY_M 89
+#define ITEM_EXP_CANDY_L 90
+#define ITEM_EXP_CANDY_XL 91
 #define ITEM_05C 92
 #define ITEM_SUN_STONE 93
 #define ITEM_MOON_STONE 94
@@ -520,6 +520,13 @@
 // Secondary IDs for bikes
 #define MACH_BIKE 0
 #define ACRO_BIKE 1
+
+// EXP Candies
+#define EXP_100 1
+#define EXP_800 2
+#define EXP_3000 3
+#define EXP_10000 4
+#define EXP_30000 5
 
 // Item type IDs (used to determine the exit callback)
 #define ITEM_USE_MAIL        0
