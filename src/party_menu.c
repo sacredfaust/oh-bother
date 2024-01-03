@@ -4882,7 +4882,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     s16 *arrayPtr = ptr->data;
     u16 *itemPtr = &gSpecialVar_ItemId;
     bool8 cannotUseEffect;
-    u8 sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
+    sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
 
     if (sInitialLevel != MAX_LEVEL)
     {
@@ -4904,7 +4904,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     }
     else
     {
-        sFinalLevel = GetMonData(mon, MON_DATA_LEVEL);
+        sFinalLevel = GetMonData(mon, MON_DATA_LEVEL, NULL);
         gPartyMenuUseExitCallback = TRUE;
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
         RemoveBagItem(gSpecialVar_ItemId, 1);
@@ -4921,8 +4921,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         else
         {
             PlaySE(SE_USE_ITEM);
-            // gPartyMenuUseExitCallback = FALSE;
-            ConvertIntToDecimalStringN(gStringVar2, sFinalLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
+            gPartyMenuUseExitCallback = FALSE;
             StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExp);
             DisplayPartyMenuMessage(gStringVar4, FALSE);
             ScheduleBgCopyTilemapToVram(2);
@@ -5042,7 +5041,7 @@ static void Task_TryLearningNextMove(u8 taskId)
             break;
     }
     if (sInitialLevel >= sFinalLevel)
-        PartyMenuTryEvolution(taskId);
+        PartyMenuTryEvolution(taskId); 
 }
 
 static void PartyMenuTryEvolution(u8 taskId)
